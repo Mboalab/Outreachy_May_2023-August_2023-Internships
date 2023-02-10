@@ -53,21 +53,25 @@ class RolePage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(left: 300, top: 30),
-            child: RichText(
-
-              text: const TextSpan(
-                children: [
-                  TextSpan(
-                    text: "Next ",
-                    style: TextStyle(color: Colors.black)
-                  ),
-                  WidgetSpan(
-                    child: Icon(Icons.arrow_forward_ios, size: 14),
-                  ),
-                ],
+            child: GestureDetector(
+              onTap: (){
+                Navigator.pushNamed(context,'/homepage');
+              },
+              child: RichText(
+                text: const TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "Next ",
+                      style: TextStyle(color: Colors.black)
+                    ),
+                    WidgetSpan(
+                      child: Icon(Icons.arrow_forward_ios, size: 14),
+                    ),
+                  ],
+                ),
               ),
             ),
-          )
+          ),
         ],
       ),
     );
