@@ -8,9 +8,5 @@ In pursuit of this goal, I am eager to apply to the Outreachy program with MboaL
 Here are the Starter and Advanced Tasks
 
 #### Starter-
-Task 0: 
-Task 1:
-
-
-#### Advanced-
-Task Link: 
+Task 0: Create a Github account and create a PR
+Task 1: Write meaning full PR title and description
