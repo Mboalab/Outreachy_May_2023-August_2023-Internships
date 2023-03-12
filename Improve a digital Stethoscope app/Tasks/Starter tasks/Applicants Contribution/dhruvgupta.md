@@ -8,6 +8,11 @@ In this contribution phase, I will be contributing in Stethoscope App project.
 
 Looking forward to connect and work under the guidance of respective mentors (Ruqaiya).
 
+Social Links 😍
+LinkedIn : https://www.linkedin.com/in/dhruvgupta1312/
+Twitter : https://twitter.com/dhruv1312gupta
+
 Regards
 Dhruv Gupta 
 Open Source contributor
+
