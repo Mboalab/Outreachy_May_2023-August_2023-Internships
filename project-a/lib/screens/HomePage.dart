@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mboathoscope/buttons/RecordingList.dart';
-import 'package:mboathoscope/buttons/headerHalf.dart';
+
+import '../buttons/RecordingList.dart';
+import '../buttons/headerHalf.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
