@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'screens/HomePage.dart';
-import 'screens/RolePage.dart';
-import 'screens/StartPage.dart';
+import 'screens/home_page.dart';
+import 'screens/role_page.dart';
+import 'screens/start_page.dart';
 
 void main() {
   runApp(
