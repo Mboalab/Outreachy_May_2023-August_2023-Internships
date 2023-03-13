@@ -2,18 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mboathoscope/buttons/RecordingList.dart';
 import 'package:mboathoscope/buttons/headerHalf.dart';
 
-void main() {
-  runApp(
-    MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
-      home: const HomePage(),
-    ),
-  );
-}
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
