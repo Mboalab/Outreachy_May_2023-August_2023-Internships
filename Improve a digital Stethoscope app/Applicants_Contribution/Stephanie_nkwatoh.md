@@ -9,7 +9,7 @@ I believe applying to this project Improve-a-digital-Stethoscope-app  will give 
 Here are the Starter and Advanced Tasks
 
 #### Starter-
-Task 0: [Introduction](/)
+Task 0: [Introduction](/Improve%20a%20digital%20Stethoscope%20app/Applicants_Contribution/Stephanie_nkwatoh.md)
 
 Task 1:
 
