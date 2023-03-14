@@ -3,24 +3,24 @@
  > When coming up with this list, I was at first inclined to pick hospitals from the western and far east parts of the world. But that would mean there are no global hospitals in Africa or the Middle East. Is that really true? There are great hospitals in Africa and their number and infrastructure is ever-growing. There are also great doctors & health researchers that have hit significant and life-changing milestones & even handled disease/viral outbreaks better, so no I don't believe that there are no global hospitals in Africa. Therefore, in every region, there are definitely hopitals that meet certain factors that make them global.
 
 ### What determines whether a hospital is global or not?
-```
+
 **Some factors worth considering are:**
   + Online Presence: Do they have a website? Is it possible to find their contacts or reach them online? 
   + Office Hours: Are they open 24 hours? Can they take in patients at any time of day or night?
   + Accessibility: Are they easily accessible? Is there proper infrastructure that makes it easy to access the hospital (Road, Rail, Airway)?
   + Services: What services are available in the hospital? What is the level of infrastructure for these services?
   + Insurance: Does the hospital have international medical insurance plans?
-```
+
 > Now the list compiled below is based on consideration of the factors listed above. 
 
 ## Regions
 
-  + [Africa](##-africa)
-  + [Asia](##-asia)
-  + [Australia](##-australia)
-  + [Europe](##-europe)
-  + [North America](##-north-america)
-  + [South America](##-south-america)
+  + [Africa](##africa)
+  + [Asia](##asia)
+  + [Australia](##australia)
+  + [Europe](##europe)
+  + [North America](##north-america)
+  + [South America](##south-america)
 
 
 ## Africa
