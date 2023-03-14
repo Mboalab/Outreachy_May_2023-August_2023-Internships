@@ -15,12 +15,12 @@
 
 ## Regions
 
-  + [Africa](##africa)
-  + [Asia](##asia)
-  + [Australia](##australia)
-  + [Europe](##europe)
-  + [North America](##north-america)
-  + [South America](##south-america)
+  + [Africa](#africa)
+  + [Asia](#asia)
+  + [Australia](#australia)
+  + [Europe](#europe)
+  + [North America](#north-america)
+  + [South America](#south-america)
 
 
 ## Africa
