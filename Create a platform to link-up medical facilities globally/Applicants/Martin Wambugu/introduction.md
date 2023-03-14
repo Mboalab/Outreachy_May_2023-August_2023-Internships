@@ -1,4 +1,4 @@
-##About Me
+<h1>About Me</h1>
 My name is Martin Wambugu.
 I beleive in moving forward and always growing where you are planted. My experiences ranges from product design, graphic design and business development.
 I pride myself in my strong interpersonal skills and ability to solve problems.
