@@ -11,8 +11,7 @@ import 'onboarding_button.dart';
 
 final _viewModel =
     StateNotifierProvider.autoDispose<_AudioRecorderViewModel, RecorderState?>(
-  (ref) => _AudioRecorderViewModel(ref.read(recordingsProvider.notifier))
-    ..initialize(),
+  (ref) => _AudioRecorderViewModel()..initialize(),
 );
 
 class AudioRecorder extends ConsumerWidget {
@@ -31,9 +30,10 @@ class AudioRecorder extends ConsumerWidget {
       child: state == RecorderState.stopped ||
               state == RecorderState.initialized
           ? Ink(
-              decoration: ShapeDecoration(
-                  color: theme.colorScheme.primary,
-                  shape: const CircleBorder()),
+        decoration: ShapeDecoration(
+                color: theme.colorScheme.primary,
+                shape: const CircleBorder(),
+              ),
               child: IconButton(
                 onPressed: viewModel.record,
                 icon: const Icon(Icons.mic),
@@ -41,63 +41,64 @@ class AudioRecorder extends ConsumerWidget {
                 color: theme.colorScheme.onPrimary,
               ),
             )
-          : Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: AudioRecorderWaveform(
-                        controller: viewModel.controller,
+          : Container(
+              color: theme.colorScheme.background,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: AudioRecorderWaveform(
+                          controller: viewModel.controller,
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 16),
-                    Consumer(builder: (_, ref, __) {
-                      final duration = ref.watch(viewModel.currentDuration);
-                      return duration.when(
-                        loading: () => const CircularProgressIndicator(),
-                        error: (error, stackTrace) => Text(error.toString()),
-                        data: (value) => Text(value.toHHMMSS()),
-                      );
-                    }),
-                  ],
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    IconButton(
-                      onPressed: () => viewModel.stop(),
-                      icon: const Icon(Icons.delete),
-                    ),
-                    IconButton(
-                      onPressed: viewModel.toggle,
-                      icon: Icon(
-                        state == RecorderState.recording
-                            ? Icons.pause_circle
-                            : Icons.mic,
-                      ),
-                    ),
-                    IconButton(
-                      onPressed: () {
-                        viewModel.pause();
-                        _showSaveRecordingDialog(context, ref).then(
-                          (value) => viewModel.stop(value),
+                      const SizedBox(width: 16),
+                      Consumer(builder: (_, ref, __) {
+                        final duration = ref.watch(viewModel.currentDuration);
+                        return duration.when(
+                          loading: () => const CircularProgressIndicator(),
+                          error: (error, stackTrace) => Text(error.toString()),
+                          data: (value) => Text(value.toHHMMSS()),
                         );
-                      },
-                      icon: const Icon(Icons.save),
-                    ),
-                  ],
-                ),
-              ],
+                      }),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      IconButton(
+                        onPressed: () => viewModel.stop(),
+                        icon: const Icon(Icons.delete),
+                      ),
+                      IconButton(
+                        onPressed: viewModel.toggle,
+                        icon: Icon(
+                          state == RecorderState.recording
+                              ? Icons.pause_circle
+                              : Icons.mic,
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {
+                          viewModel.pause();
+                          _showSaveRecordingDialog(context, ref).then(
+                            (value) => viewModel.stop(ref: ref, title: value),
+                          );
+                        },
+                        icon: const Icon(Icons.save),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
     );
   }
 }
 
 class _AudioRecorderViewModel extends StateNotifier<RecorderState?> {
-  _AudioRecorderViewModel(this.recordings) : super(null);
-
-  final Recordings recordings;
+  _AudioRecorderViewModel() : super(null);
 
   late final String _path;
 
@@ -135,14 +136,16 @@ class _AudioRecorderViewModel extends StateNotifier<RecorderState?> {
     }
   }
 
-  void stop([String? title]) async {
+  void stop({WidgetRef? ref, String? title}) async {
     var path = await controller.stop();
     if (title != null) {
       final source = File(path!);
       final directory = await getExternalStorageDirectory();
       final destination = await source.rename('${directory?.path}/$title.m4a');
       path = destination.path;
-      recordings.add(path);
+      if (ref != null) {
+        ref.read(recordingsProvider.notifier).add(path);
+      }
     }
     debugPrint(path);
     controller.refresh();

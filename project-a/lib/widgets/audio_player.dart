@@ -2,66 +2,105 @@ import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../data/recording.dart';
 import 'audio_waveform.dart';
 
-class AudioPlayer extends ConsumerWidget {
-  AudioPlayer(this.path, {Key? key}) : super(key: key);
+class AudioPlayer extends ConsumerStatefulWidget {
+  const AudioPlayer(this.recording, {Key? key}) : super(key: key);
 
-  late final _viewModel =
-      StateNotifierProvider.autoDispose<_AudioPlayerViewModel, PlayerState>(
-    (ref) => _AudioPlayerViewModel()..initializePlayer(path),
-  );
-
-  final String path;
+  final Recording recording;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final state = ref.watch(_viewModel);
-    final viewModel = ref.read(_viewModel.notifier);
-    final isInitialized = state != PlayerState.stopped;
+  ConsumerState createState() => _AudioPlayerState();
+}
 
-    return Padding(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Row(
-            children: [
-              IconButton(
-                icon: const Icon(
-                  Icons.play_arrow_outlined,
-                ),
-                onPressed: isInitialized ? viewModel.toggle : null,
+class _AudioPlayerState extends ConsumerState<AudioPlayer> {
+  late final _viewModel =
+      StateNotifierProvider.autoDispose<_AudioPlayerViewModel, PlayerState?>(
+    (ref) => _AudioPlayerViewModel()..initializeRecording(widget.recording),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    final state = ref.watch(_viewModel);
+
+    if (state == null) return const SizedBox();
+
+    final viewModel = ref.read(_viewModel.notifier);
+    final theme = Theme.of(context);
+
+    return Row(
+      children: [
+        Expanded(
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.black,
               ),
-              if (isInitialized)
+              borderRadius: BorderRadius.circular(24),
+            ),
+            child: Row(
+              children: [
+                IconButton(
+                  icon: Icon(
+                    state == PlayerState.playing
+                        ? Icons.pause_circle
+                        : Icons.play_arrow,
+                  ),
+                  onPressed: () => viewModel.toggle(ref),
+                  color: theme.colorScheme.primary,
+                ),
                 Expanded(
                   child: AudioPlayerWaveform(
                     controller: viewModel.controller,
                   ),
                 ),
-            ],
+                const SizedBox(width: 8),
+              ],
+            ),
           ),
-        ],
-      ),
+        ),
+        IconButton(
+          onPressed: () {
+            ref.read(recordingsProvider.notifier).remove(widget.recording.path);
+          },
+          icon: const Icon(Icons.delete_sweep_outlined),
+        ),
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(Icons.share_outlined),
+        ),
+      ],
     );
   }
 }
 
-class _AudioPlayerViewModel extends StateNotifier<PlayerState> {
-  _AudioPlayerViewModel() : super(PlayerState.stopped);
+class _AudioPlayerViewModel extends StateNotifier<PlayerState?> {
+  _AudioPlayerViewModel() : super(null);
 
   late final controller = PlayerController()
     ..onPlayerStateChanged.listen((event) => state = event);
 
-  void initializePlayer(String path) async {
-    await controller.preparePlayer(path: path, volume: 1.0);
+  late final Recording recording;
+
+  void initializeRecording(Recording recording) async {
+    this.recording = recording;
+    await controller.preparePlayer(path: recording.path, volume: 1.0);
   }
 
-  void toggle() async {
-    if (state != PlayerState.paused) {
-      await controller.startPlayer();
-    } else if (state == PlayerState.playing) {
+  void toggle(WidgetRef ref) async {
+    if (state == null) return;
+
+    if (state == PlayerState.playing) {
       await controller.pausePlayer();
+    } else {
+      await controller.startPlayer(finishMode: FinishMode.pause);
     }
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
   }
 }

@@ -26,9 +26,8 @@ class Recordings extends StateNotifier<List<Recording>> {
   }
 
   void remove(String path) {
-    final data = state;
-    data.removeWhere((item) => item.path == path);
-    state = data;
+    state = [...state]..removeWhere((item) => item.path == path);
+    File(path).deleteSync();
   }
 }
 
