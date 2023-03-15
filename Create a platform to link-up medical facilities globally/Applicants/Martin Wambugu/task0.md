@@ -78,7 +78,7 @@
 <tr>
 <td>Butabika National Referral Hospital</td
 <td>Kampala, Uganda</td>
-<td>
+<td><ul>
 <li>Psychiatry</li>
 <li>Epilepsy</li>
 <li>General Surgery</li>
@@ -592,7 +592,7 @@
 </tr>
 <tr>
 <td>Ibn Sina Hospital</td>
-<td> Baghdad, Iraq</td
+  <td> Baghdad, Iraq</td>
 <td><ul><li>Laboratory</li>
 <li>Containment</li>
 <li>Imagery</li>
