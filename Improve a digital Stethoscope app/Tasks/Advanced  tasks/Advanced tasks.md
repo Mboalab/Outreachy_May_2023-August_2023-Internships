@@ -4,7 +4,7 @@ Run the code on phone or emulator.
 
 Task: On screen 3[Home Page]. when the user click the recording mic button, your voice needs to be 
 record from your phone and save that voice to the recording list below. 
-Where on clicking play botton in the list below on that same screen, it should play and pause the sound. 
+Where on clicking play button in the list below on that same screen, it should play and pause the sound. 
 
 Note: you need to submit the running and working output video of the app(recorded app screen)0 on this folder.
 
