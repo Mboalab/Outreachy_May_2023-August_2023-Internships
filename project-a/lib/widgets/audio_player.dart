@@ -29,46 +29,57 @@ class _AudioPlayerState extends ConsumerState<AudioPlayer> {
     final viewModel = ref.read(_viewModel.notifier);
     final theme = Theme.of(context);
 
-    return Row(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Expanded(
-          child: Container(
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.black,
+        Row(
+          children: [
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.black,
+                  ),
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      icon: Icon(
+                        state == PlayerState.playing
+                            ? Icons.pause_circle
+                            : Icons.play_arrow,
+                      ),
+                      onPressed: () => viewModel.toggle(ref),
+                      color: theme.colorScheme.primary,
+                    ),
+                    Expanded(
+                      child: AudioPlayerWaveform(
+                        controller: viewModel.controller,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                  ],
+                ),
               ),
-              borderRadius: BorderRadius.circular(24),
             ),
-            child: Row(
-              children: [
-                IconButton(
-                  icon: Icon(
-                    state == PlayerState.playing
-                        ? Icons.pause_circle
-                        : Icons.play_arrow,
-                  ),
-                  onPressed: () => viewModel.toggle(ref),
-                  color: theme.colorScheme.primary,
-                ),
-                Expanded(
-                  child: AudioPlayerWaveform(
-                    controller: viewModel.controller,
-                  ),
-                ),
-                const SizedBox(width: 8),
-              ],
+            IconButton(
+              onPressed: () {
+                ref
+                    .read(recordingsProvider.notifier)
+                    .remove(widget.recording.path);
+              },
+              icon: const Icon(Icons.delete_sweep_outlined),
             ),
-          ),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.share_outlined),
+            ),
+          ],
         ),
-        IconButton(
-          onPressed: () {
-            ref.read(recordingsProvider.notifier).remove(widget.recording.path);
-          },
-          icon: const Icon(Icons.delete_sweep_outlined),
-        ),
-        IconButton(
-          onPressed: () {},
-          icon: const Icon(Icons.share_outlined),
+        Text(
+          widget.recording.name,
+          style: theme.textTheme.labelSmall,
         ),
       ],
     );

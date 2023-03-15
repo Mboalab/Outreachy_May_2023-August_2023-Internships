@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 
 final recordingsProvider =
-    StateNotifierProvider.autoDispose<Recordings, List<Recording>>(
+StateNotifierProvider.autoDispose<Recordings, List<Recording>>(
   (ref) => Recordings()..initialize(),
 );
 
@@ -21,6 +21,16 @@ class Recordings extends StateNotifier<List<Recording>> {
         .toList();
   }
 
+  bool hasName(String name) => state.any((recording) => recording.name == name);
+
+  String newRecordingName() {
+    var index = state.length + 1;
+    while (hasName('Recording $index')) {
+      ++index;
+    }
+    return 'Recording $index';
+  }
+
   void add(String path) {
     state = [...state, Recording(path)];
   }
@@ -32,9 +42,16 @@ class Recordings extends StateNotifier<List<Recording>> {
 }
 
 class Recording {
+  Recording(this.path);
+
+  static const extension = 'm4a';
+
   final String path;
 
-  const Recording(this.path);
-
-  String get name => File(path).path.split(Platform.pathSeparator).last;
+  late final String name = File(path)
+      .path
+      .split(Platform.pathSeparator)
+      .last
+      .replaceAll(".$extension", '')
+      .trim();
 }

@@ -30,7 +30,7 @@ class AudioRecorder extends ConsumerWidget {
       child: state == RecorderState.stopped ||
               state == RecorderState.initialized
           ? Ink(
-        decoration: ShapeDecoration(
+              decoration: ShapeDecoration(
                 color: theme.colorScheme.primary,
                 shape: const CircleBorder(),
               ),
@@ -120,7 +120,7 @@ class _AudioRecorderViewModel extends StateNotifier<RecorderState?> {
     final cacheDirs = await getExternalCacheDirectories();
     if (cacheDirs?.isNotEmpty == false) return null;
     final appDirectory = cacheDirs!.first;
-    _path = "${appDirectory.path}/recording.m4a";
+    _path = "${appDirectory.path}/recording.${Recording.extension}";
     state = RecorderState.initialized;
   }
 
@@ -141,7 +141,9 @@ class _AudioRecorderViewModel extends StateNotifier<RecorderState?> {
     if (title != null) {
       final source = File(path!);
       final directory = await getExternalStorageDirectory();
-      final destination = await source.rename('${directory?.path}/$title.m4a');
+      final destination = await source.rename(
+        '${directory?.path}/$title.${Recording.extension}',
+      );
       path = destination.path;
       if (ref != null) {
         ref.read(recordingsProvider.notifier).add(path);
@@ -159,13 +161,16 @@ class _AudioRecorderViewModel extends StateNotifier<RecorderState?> {
 }
 
 Future<String> _showSaveRecordingDialog(
-    BuildContext context, WidgetRef ref) async {
+  BuildContext context,
+  WidgetRef ref,
+) async {
   return await showDialog(
     context: context,
     builder: (BuildContext context) {
       final form = GlobalKey<FormState>();
       final controller = TextEditingController(
-          text: "Recording ${ref.read(recordingsProvider).length + 1}");
+        text: ref.read(recordingsProvider.notifier).newRecordingName(),
+      );
       return AlertDialog(
         title: const Text("Save Recording"),
         content: Form(
@@ -177,6 +182,9 @@ Future<String> _showSaveRecordingDialog(
             validator: (value) {
               if (value == null || value.isEmpty) {
                 return 'File name cannot be empty';
+              }
+              if (ref.read(recordingsProvider.notifier).hasName(value)) {
+                return 'File with name already exists';
               }
               return null;
             },
