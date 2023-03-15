@@ -30,65 +30,83 @@ class _AudioPlayerState extends ConsumerState<AudioPlayer> {
     final viewModel = ref.read(_viewModel.notifier);
     final theme = Theme.of(context);
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          children: [
-            Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    color: Colors.black,
+    return DefaultTextStyle.merge(
+      style: theme.textTheme.labelSmall,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                    borderRadius: BorderRadius.circular(24),
                   ),
-                  borderRadius: BorderRadius.circular(24),
-                ),
-                child: Row(
-                  children: [
-                    IconButton(
-                      icon: Icon(
-                        state == PlayerState.playing
-                            ? Icons.pause_circle
-                            : Icons.play_arrow,
+                  child: Row(
+                    children: [
+                      IconButton(
+                        icon: Icon(
+                          state == PlayerState.playing
+                              ? Icons.pause_circle
+                              : Icons.play_arrow,
+                        ),
+                        onPressed: () => viewModel.toggle(ref),
+                        color: theme.colorScheme.primary,
                       ),
-                      onPressed: () => viewModel.toggle(ref),
-                      color: theme.colorScheme.primary,
-                    ),
-                    Expanded(
-                      child: AudioPlayerWaveform(
-                        controller: viewModel.controller,
+                      Expanded(
+                        child: AudioPlayerWaveform(
+                          controller: viewModel.controller,
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 8),
-                  ],
+                      const SizedBox(width: 8),
+                      if (state == PlayerState.playing ||
+                          state == PlayerState.paused) ...{
+                        Consumer(builder: (_, ref, __) {
+                          final duration = ref.watch(viewModel.currentDuration);
+                          return duration.when(
+                            loading: () => Text(
+                              viewModel.maxDuration.toHHMMSS(),
+                            ),
+                            error: (error, stackTrace) => Text(
+                              error.toString(),
+                            ),
+                            data: (value) => Text(value.toHHMMSS()),
+                          );
+                        })
+                      } else ...{
+                        Text(viewModel.maxDuration.toHHMMSS())
+                      },
+                      const SizedBox(width: 8),
+                    ],
+                  ),
                 ),
               ),
-            ),
-            IconButton(
-              onPressed: () {
-                ref
-                    .read(recordingsProvider.notifier)
-                    .remove(widget.recording.path);
-              },
-              icon: const Icon(Icons.delete_sweep_outlined),
-            ),
-            IconButton(
-              onPressed: () async {
-                await Share.shareXFiles(
-                  [XFile(widget.recording.path)],
-                  subject: widget.recording.name,
-                  text: "${widget.recording.name}.${Recording.extension}",
-                );
-              },
-              icon: const Icon(Icons.share_outlined),
-            ),
-          ],
-        ),
-        Text(
-          widget.recording.name,
-          style: theme.textTheme.labelSmall,
-        ),
-      ],
+              IconButton(
+                onPressed: () {
+                  ref
+                      .read(recordingsProvider.notifier)
+                      .remove(widget.recording.path);
+                },
+                icon: const Icon(Icons.delete_sweep_outlined),
+              ),
+              IconButton(
+                onPressed: () async {
+                  await Share.shareXFiles(
+                    [XFile(widget.recording.path)],
+                    subject: widget.recording.name,
+                    text: "${widget.recording.name}.${Recording.extension}",
+                  );
+                },
+                icon: const Icon(Icons.share_outlined),
+              ),
+            ],
+          ),
+          Text(widget.recording.name),
+        ],
+      ),
     );
   }
 }
@@ -99,10 +117,15 @@ class _AudioPlayerViewModel extends StateNotifier<PlayerState?> {
   late final controller = PlayerController()
     ..onPlayerStateChanged.listen((event) => state = event);
 
-  late final Recording recording;
+  late final currentDuration = StreamProvider.autoDispose(
+    (ref) => controller.onCurrentDurationChanged.map(
+      (duration) => Duration(milliseconds: duration),
+    ),
+  );
+
+  late final maxDuration = Duration(milliseconds: controller.maxDuration);
 
   void initializeRecording(Recording recording) async {
-    this.recording = recording;
     await controller.preparePlayer(path: recording.path, volume: 1.0);
   }
 
