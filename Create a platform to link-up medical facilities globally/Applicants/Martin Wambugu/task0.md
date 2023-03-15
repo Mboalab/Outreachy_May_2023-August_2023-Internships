@@ -76,7 +76,7 @@
 <td>http://www.kisiizihospital.org.ug/</td>
 </tr>
 <tr>
-<td>Butabika National Referral Hospital</td
+  <td>Butabika National Referral Hospital</td>
 <td>Kampala, Uganda</td>
 <td><ul>
 <li>Psychiatry</li>
