@@ -49,7 +49,7 @@
 <li>Cardiology</li>
 <li>General Surgery</li>
 <li>Endocrinology</li>
-<li>Radiology<li>
+<li>Radiology</li>
 <li>Ear, Nose and Throat </li>
 <li>Orthopaedics</li>
 <li>Neurology</li>
