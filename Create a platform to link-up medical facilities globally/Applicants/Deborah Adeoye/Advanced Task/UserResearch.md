@@ -26,56 +26,56 @@ To define user personas and their needs for the hospital application, I came up 
 
 **Persona 1**: Angela<br>
 **Age**: 35<br>
-**Occupation**: Nurse<br>
-**Goal**: Angela wants a mobile app that will help her manage patient information and appointments easily, allowing her to provide better care to her patients.<br>
-**Frustration**: Angela finds it difficult to keep track of patient schedules, medical histories and other vital information due to her busy work schedule.<br>
-> "I want an app that can help me keep up with my patients, even when I'm not at work."
+**Occupation**: Hospital Administrator<br>
+**Goal**: Angela wants to efficiently manage the hospital’s operations and find other hospitals to collaborate with. She needs a tool that can help her find hospitals with similar facilities and services in her local area and globally.<br>
+**Frustration**: Angela is frustrated with the lack of information about hospitals in her area and the difficulties in finding the right hospitals to collaborate with. She also finds it challenging to keep track of hospital operations and data.<br>
+> "Collaboration is key to improving healthcare outcomes. We need a tool that can help us find the right partners quickly and easily."
 
-Angela is a dedicated nurse who works long hours in a busy hospital. She cares deeply about her patients and wants to provide them with the best care possible. However, with so many patients to keep track of, she often finds herself struggling to remember important details about their medical histories and appointments.
+Angela is a busy hospital administrator who is always looking for ways to improve her hospital’s operations. She finds it challenging to keep track of the hospital’s data and the data of other hospitals in her area. She needs a tool that can help her find the right hospitals to collaborate with and make her job easier.
 
 ---
 **Persona 2**: Michael<br>
 **Age**: 45<br>
-**Occupation**: Hospital Administrator<br>
-**Goal**: Michael wants a mobile app that will help him manage his hospital's operations, including patient care, scheduling, and billing.<br>
-**Frustration**: Michael finds it challenging to manage hospital operations efficiently due to the many moving parts involved.<br>
-> "I need an app that can help me streamline hospital operations and make it easier for everyone to do their jobs."
+**Occupation**: Surgeon<br>
+**Goal**: Michael wants to find hospitals that specialize in specific medical procedures or treatments. He needs a tool that can help him search for hospitals based on their specialty and reputation.<br>
+**Frustration**: Michael is frustrated with the limited options available to him when he needs to refer a patient to another hospital for specialized care. He also finds it challenging to keep up with the latest developments in the medical field.<br>
+> "Finding the right hospital for a patient’s specific needs can be a matter of life and death. We need a tool that can help us make the right choices.”
 
-Michael is a busy hospital administrator who is responsible for managing all aspects of hospital operations. He has to ensure that patients receive the best possible care, that staff are properly scheduled and trained, and that the hospital's finances are in order. It's a challenging job, and he often feels like there aren't enough hours in the day to get everything done.
+Michael is a highly skilled surgeon who is always looking for ways to provide the best possible care for his patients. He finds it challenging to keep up with the latest developments in the medical field and to find the right hospitals to refer his patients to for specialized care.
 
 ---
 **Persona 3**: Sarah<br>
 **Age**: 28<br>
-**Occupation**: Medical Resident<br>
-**Goal**: Sarah wants a mobile app that will help her keep track of her patient's medical histories and test results, making it easier for her to provide effective treatment.<br>
-**Frustration**: Sarah finds it challenging to keep track of her patient's medical histories, test results, and other vital information while working long hours in the hospital.<br>
-> "I need an app that can help me provide the best possible care to my patients, even when I'm working long hours and feeling overwhelmed."
+**Occupation**: Nurse<br>
+**Goal**: Sarah wants to find hospitals that offer training programs and opportunities for career advancement. She needs a tool that can help her search for hospitals based on their education and training opportunities.<br>
+**Frustration**: Sarah is frustrated with the limited options available to her for professional development and career advancement. She also finds it challenging to find hospitals that offer the training and education she needs to advance in her career.<br>
+> "Education and training are critical to advancing in the medical field. We need a tool that can help us find the right opportunities.”
 
-Sarah is a dedicated medical resident who wants to provide her patients with the best possible care. She works long hours in the hospital and often feels overwhelmed by the many demands of her job. She wants an app that will help her keep track of her patient's medical histories and test results, allowing her to provide more effective treatment.
+Sarah is a young nurse who is passionate about her work and wants to advance in her career. She finds it challenging to find hospitals that offer the training and education she needs to achieve her goals.
 
 ---
 **Persona 4**: Rhema<br>
-**Age**: 45
-**Occupation**: Teacher
-**Goal**: Rhema wants to have easy access to the hospital's information and services. She wants to be able to book appointments, access her medical records, and receive updates on her treatment plan through the app.
-**Frustrations**: Rhema is frustrated with long waiting times at the hospital, difficulty in booking appointments, and the lack of transparency in the hospital's services and procedures.
-> "I want to be able to manage my health easily without having to go through a lot of hassle. The app should make my life easier, not more complicated."
+**Age**: 45<br>
+**Occupation**: Hospital CEO<br>
+**Goal**: Rhema wants to find hospitals that can provide the best possible care for his patients. He needs a tool that can help him search for hospitals based on their reputation and patient outcomes.<br>
+**Frustrations**: Rhema is frustrated with the limited options available to him when he needs to refer a patient to another hospital for specialized care. He also finds it challenging to keep up with the latest developments in the medical field.<br>
+> "Providing the best possible care for our patients is our top priority. We need a tool that can help us find the right hospitals to refer our patients to.”
 
-Rhema has been recently diagnosed with a chronic condition and needs to manage her health carefully. She wants to stay on top of her appointments and treatment plan without having to constantly call the hospital. She downloads the Link-Up hospital app and finds it easy to navigate. She is able to book appointments quickly and view her medical records with ease. She appreciates the convenience and time-saving features of the app, which allows her to focus on her health without any additional stress.
+Rhema is the CEO of a large hospital network who is always looking for ways to improve patient outcomes. He finds it challenging to find the right hospitals to refer his patients to for specialized care and to keep up with the latest developments in the medical field.
 <br>
 <br>
 <br>
 
 ## User Stories
 From on the user personas and their needs, I was able to generate user stories to clearly define the functionality and features of the application:
-1. As a **patient**, I want to be able to search for hospitals near my location.
-3. As a **patient**, I want to be able to see the hospital’s ratings and reviews.
-5. As a **patient**, I want to be able to book appointments with doctors in the hospital.
-7. As a **doctor**, I want to be able to view my appointments for the day.
-9. As a **hospital administrator**, I want to be able to manage the hospital’s information such as location, contact details and services provided.
-11. As a **hospital administrator**, I want to be able to manage the hospital’s doctors and their schedules.
-13. As a **hospital administrator**, I want to be able to view analytics such as the number of appointments per day, week or month.
-15. As a **hospital administrator**, I want to be able to receive feedback from patients and respond to them.
+1. As a **hospital administrator**, I want to be able to search for other hospitals in my area so that I can collaborate with them on medical issues.
+2. As a **hospital staff member**, I want to be able to update our hospital's information on the app so that other hospitals can be aware of our services and facilities.
+3. As a **patient**, I want to be able to search for hospitals based on specific medical services they provide so that I can find the best hospital for my needs.
+4. As a **hospital administrator**, I want to be able to view other hospitals' information on the app so that I can assess their suitability for potential collaborations.
+5. As a **hospital administrator**, I want to be able to send messages to other hospitals on the app so that we can communicate and collaborate effectively.
+6. As a **hospital administrator**, I want to be able to filter my search results by location, services offered, and facilities available so that I can find the most suitable hospital for collaboration.
+7. As a **hospital administrator**, I want to be able to see the rating and reviews of other hospitals on the app so that I can make an informed decision about potential collaborations.
+8. As a **hospital staff member**, I want to be able to access a directory of medical professionals on the app so that I can easily refer patients to the appropriate specialists.
 <br>
 These user stories can help guide the development of the application and ensure that it meets the needs of its users.
 <br>
