@@ -1,6 +1,7 @@
 import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../data/recording.dart';
 import 'audio_waveform.dart';
@@ -72,7 +73,13 @@ class _AudioPlayerState extends ConsumerState<AudioPlayer> {
               icon: const Icon(Icons.delete_sweep_outlined),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () async {
+                await Share.shareXFiles(
+                  [XFile(widget.recording.path)],
+                  subject: widget.recording.name,
+                  text: "${widget.recording.name}.${Recording.extension}",
+                );
+              },
               icon: const Icon(Icons.share_outlined),
             ),
           ],

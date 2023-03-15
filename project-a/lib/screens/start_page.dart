@@ -33,7 +33,7 @@ class StartPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 32),
-            OnboardingButton(
+            Button(
               text: 'Get Started',
               onPressed: () => Navigator.pushNamed(context, AppRoutes.rolePage),
             ),

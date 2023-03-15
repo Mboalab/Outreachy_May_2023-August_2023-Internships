@@ -33,11 +33,11 @@ class RolePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  OnboardingButton(
+                  Button(
                     text: 'Transmitter',
                     onPressed: () {},
                   ),
-                  OnboardingButton(
+                  Button(
                     text: 'Receiver',
                     onPressed: () {},
                   )

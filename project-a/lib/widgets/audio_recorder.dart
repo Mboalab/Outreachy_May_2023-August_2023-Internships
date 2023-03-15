@@ -192,7 +192,7 @@ Future<String> _showSaveRecordingDialog(
           ),
         ),
         actions: [
-          OnboardingButton(
+          Button(
             text: 'Save',
             onPressed: () {
               if (form.currentState?.validate() == true) {
