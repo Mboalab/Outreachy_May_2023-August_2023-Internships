@@ -412,4 +412,145 @@
 <tr>
 <td>Al-Ahli Hospital</td>
 <td>Doha, Qatar</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://www.ahlihospital.com</td>
+</tr>
+<tr>
+<td>Bumrungrad International Hospital</td>
+<td>Bangkok, Thailand</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Transplantation</li>
+</ul>
+</td>
+<td>https://www.bumrungrad.com</td>
+</tr>
+<tr>
+<td>Prince Court Medical Centre</td>
+<td>Kuala Lumpur, Malaysia</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Pediatrics</li>
+</ul>
+</td>
+<td>https://www.princecourt.com</td>
+</tr>
+<tr>
+<td>Netcare Milpark Hospital</td>
+<td>Johannesburg, South Africa</td>
+<td><ul><li>Gastroenterology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul>
+</td>
+<td>https://www.netcare.co.za/Our-Hospitals/Hospitals/Netcare-Milpark-Hospital</td>
+</tr>
+<tr>
+<td>Assuta Medical Center</td>
+<td>Tel Aviv, Israel</td>
+<td><ul><li>Gastroenterology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul>
+</td>
+<td> https://www.assuta.co.il/en</td>
+</tr>
+<tr>
+<td>Gleneagles Hospital - Singapore</td>
+<td>Singapore</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://www.gleneagles.com.sg</td>
+</tr>
+<td>St. Thomas' Hospital</td>
+<td>London, United Kingdom</td>
+<td><ul><li>Cardiology</li> <li>Dermatology</li> <li>Diabetes and endocrinology</li> <li>Ear nose and throat</li><li> Gastroenterology</li><li>General surgery</li><li> Geriatric medicine,
+</li><li>Gynaecology</li><li> Haematology</li><li> Infectious diseases</li><li>Neurology</li><li>Oncology</li><li> Ophthalmology</li> <li>Orthopaedics</li> <li>Paediatric medicine</li><li> Pain management</li><li> Renal medicine</li><li>Respiratory medicine</li><li>Rheumatology</li><li> Sexual health</li><li> Stroke medicine</li><li> Urology</li>
+</ul></td>
+<td>https://www.guysandstthomas.nhs.uk/</td>
+</tr>
+<tr>
+<td>Royal Manchester Children's Hospital</td>
+<td>Manchester, Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+</ul>
+</td>
+<td>https://mft.nhs.uk/rmch/</td>
+</tr>
+<tr>
+<td>University Hospitals Birmingham NHS Foundation Trust</td>
+<td>Birmingham, United Kingdom</td>
+<td><ul><li>Obstetrics and gynaecology</li>
+<li>Endocrinology</li>
+<li> Adult major trauma</li>
+<li>Cancer</li>
+<li>Critical care</li>
+<li>Ear, Nose and throat</li>
+<li>Stroke</li>
+<li>Rheumatology</li>
+</ul></td>
+<td>https://www.uhb.nhs.uk/</td>
+</tr>
+<tr>
+<td>Royal Sussex County Hospital</td>
+<td>Brighton, United Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+</ul>
+</td>
+<td>https://www.bsuh.nhs.uk/</td>
+</tr>
+<tr>
+<td>John Radcliffe Hospital</td>
+<td>Oxford, United Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+<li>Palliative care</li>
+<li> Sexual health</li>
+<li>Children's services</li>
+</ul>
+</td>
+<td>https://www.ouh.nhs.uk/</td>
+</tr>
 
