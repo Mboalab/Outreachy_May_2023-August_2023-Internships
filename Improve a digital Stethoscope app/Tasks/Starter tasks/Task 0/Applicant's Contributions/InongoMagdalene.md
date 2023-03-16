@@ -1,4 +1,4 @@
-# Activities completed:
+# Activities completed for Task 0:
 
 [done] *Create a GitHub account: https://github.com/InongoMag
 [done] *Go through documentation on basic knowledge on how to use,
