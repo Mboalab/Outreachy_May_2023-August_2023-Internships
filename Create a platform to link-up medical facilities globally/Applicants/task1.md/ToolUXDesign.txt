@@ -1,35 +1,38 @@
-Introduction:
-The purpose of this UX document is to provide guidance for designing a user-friendly hospital form that collects important information about the hospital. This form is intended to be used by patients and other stakeholders who want to learn more about the hospital.
-User Persona:
-The target users for this hospital form are hospitals who would provide data about their capabilities and facilities.
-This data can then be used to create a platform for patients want to know more about the hospital before choosing it as their healthcare provider. These users may be looking for information about the hospital's location, available departments and services, the number of doctors and nurses, and their accepted insurance. They may also want to learn more about the hospital's certification and website link.
-Design Guidelines:
-Simple and Clear Layout: The form should have a simple and clear layout that is easy to understand and navigate. The sections should be clearly labeled, and the instructions should be written in simple language.
-User-Friendly Form Fields: The form fields should be designed to be user-friendly and easy to fill out. The fields should be logically grouped, and the form should use dropdowns, checkboxes, and radio buttons wherever possible to make the process of filling out the form faster and easier.
-Clear Labels: Each field should have a clear label that describes what information is required. The labels should be written in simple language, and any technical terms should be explained in parentheses.
-Error Prevention and Validation: The form should have error prevention and validation features that alert users if they have entered incorrect or incomplete information. The validation should be done in real-time, as the user fills out the form, to prevent them from submitting incorrect information.
+**Introduction:
+*The purpose of this UX document is to provide guidance for designing a user-friendly hospital form that collects important information about the hospital. This form is intended to be used by patients and other stakeholders who want to learn more about the hospital.
 
-Progress Indicators: The form should have a progress indicator that shows the user how far they have progressed through the form and how many sections they still need to complete. This will help the user stay motivated and focused on completing the form.
-Visual Hierarchy: The form should use a clear visual hierarchy to guide the user's attention through the form. The most important information should be placed at the top of the form, and the less important information should be placed at the bottom.
-Form Fields:
-Name of Hospital (required field)
-Location (required field)
-Available Departments (dropdown or checkbox field)
-Services Available (dropdown or checkbox field)
-Number of Doctors (required field)
-Number of Nurses (required field)
-Accepted Insurances (dropdown or checkbox field)
-Certification (required field)
-Website Link (required field)
+**User Persona:
+*The target users for this hospital form are hospitals who would provide data about their capabilities and facilities.
+*This data can then be used to create a platform for patients want to know more about the hospital before choosing it as their healthcare provider. These users may be looking for information about the hospital's location, available departments and services, the number of doctors and nurses, and their accepted insurance. They may also want to learn more about the hospital's certification and website link.
 
-Conclusion:
-By following these design guidelines, the hospital form can be designed to be user-friendly, efficient, and effective. 
-The form should be tested with real users to identify any usability issues and make improvements as needed. 
-By collecting accurate and complete information about the hospital, the form will help create a database of hospitals and their capabilities, 
+**Design Guidelines:
+*Simple and Clear Layout: The form should have a simple and clear layout that is easy to understand and navigate. The sections should be clearly labeled, and the instructions should be written in simple language.
+*User-Friendly Form Fields: The form fields should be designed to be user-friendly and easy to fill out. The fields should be logically grouped, and the form should use dropdowns, checkboxes, and radio buttons wherever possible to make the process of filling out the form faster and easier.
+*Clear Labels: Each field should have a clear label that describes what information is required. The labels should be written in simple language, and any technical terms should be explained in parentheses.
+*Error Prevention and Validation: The form should have error prevention and validation features that alert users if they have entered incorrect or incomplete information. The validation should be done in real-time, as the user fills out the form, to prevent them from submitting incorrect information.
+
+**Progress Indicators: 
+*The form should have a progress indicator that shows the user how far they have progressed through the form and how many sections they still need to complete. This will help the user stay motivated and focused on completing the form.
+*Visual Hierarchy: The form should use a clear visual hierarchy to guide the user's attention through the form. The most important information should be placed at the top of the form, and the less important information should be placed at the bottom.
+*Form Fields:
+*Name of Hospital (required field)
+*Location (required field)
+*Available Departments (dropdown or checkbox field)
+*Services Available (dropdown or checkbox field)
+*Number of Doctors (required field)
+*Number of Nurses (required field)
+*Accepted Insurances (dropdown or checkbox field)
+*Certification (required field)
+*Website Link (required field)
+
+**Conclusion:
+*By following these design guidelines, the hospital form can be designed to be user-friendly, efficient, and effective. 
+*The form should be tested with real users to identify any usability issues and make improvements as needed. 
+*By collecting accurate and complete information about the hospital, the form will help create a database of hospitals and their capabilities, 
 and using this we can help  patients make better decisions while choosing a healthcare provider, 
 as well as aid the government and private healthcare providers to identify the gaps in the existing infrastructure.
 
-Implementation:
-I have implemented a simple HTML/CSS/JS framework to make a simple to use form for hospitals.
-This data must be stored in a database. However, that is a paid feature.
-To overcome the same, I have implemented an Appscript framework to store this data in a Google Sheet, which can be accessed by authorised personnel.
+**Implementation:
+*I have implemented a simple HTML/CSS/JS framework to make a simple to use form for hospitals.
+*This data must be stored in a database. However, that is a paid feature.
+*To overcome the same, I have implemented an Appscript framework to store this data in a Google Sheet, which can be accessed by authorised personnel.
