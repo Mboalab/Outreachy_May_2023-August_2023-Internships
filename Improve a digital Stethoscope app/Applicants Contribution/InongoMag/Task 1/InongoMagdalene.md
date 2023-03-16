@@ -3,8 +3,7 @@
 
 Hello Mentors👋. Nice to meet you.<br>
 
-My names are **Inongo Magdalene** from Cameroon. I am a tech lover and I am
-willing to learn new things, create and innovate existing technologies.
+My names are **Inongo Magdalene** from Cameroon. I am an Outreachy applicant, tech lover and I am willing to learn new things, create and innovate existing technologies.
 My research areas are machine learning, deep learning, computer vision in the
 fields of healthcare and agriculture.<br>
 
