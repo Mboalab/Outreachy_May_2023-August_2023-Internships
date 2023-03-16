@@ -553,4 +553,238 @@
 </td>
 <td>https://www.ouh.nhs.uk/</td>
 </tr>
-
+<tr><td>Centre Hospitalier Universitaire Joseph Raseta Befelatanana (CHUJRB)</td>
+<td>Analamahitsy, Antananarivo, Madagascar</td>
+<td><ul><li>Emergency care</li>
+<li>surgery<li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>gynecology</li>
+<li>cardiology</li>
+<li>neurology</li>
+</ul></td>
+<td>http://www.chujrb.mg/</td>
+</tr>
+<tr>
+<td>Centre Hospitalier Universitaire HJRA (CHU-HJRA)</td>
+<td><ul><li>General medicine</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>Gynaecology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+</ul>
+</td>
+<td>Hydrocarbures, Antananarivo, Madagascar</td>
+<td>http://www.chuhjra.mg/</td>
+</tr>
+<tr><td>Hôpital de Befelatanana</td>
+<td>Antananarivo, Madagascar</td>
+<td><ul><li>Emergency care</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>gynecology</li>
+<li>cardiology</li>
+<li>neurology</li></ul></td>
+<td>https://www.facebook.com/CHUJRB/?locale=fr_FR</td>
+</tr>
+<tr>
+<td>Ibn Sina Hospital</td>
+<td> Baghdad, Iraq</td
+<td><ul><li>Laboratory</li>
+<li>Containment</li>
+<li>Imagery</li>
+<li>Ophthamology</li>
+<li>Tramautic cases</li>
+<li>Emergencies</li>
+<li>Internal Medicine</li>
+<li>Research</li>
+</ul></td>
+<td>https://ibnsinahospital.iq/</td>
+</tr>
+<tr><td>Tehran Hospital</td>
+<td>Tehran, Iran</td>
+<td><ul><li>Heart Surgery</li>
+<li>Dentistry</li>
+<li>Clinical Services</li>
+<li>Orthopedagogy</li>
+<li>Gastroenterology</li>
+<li>Neurology<li></ul>
+</td>
+<td>https://tehran-hospital.ir/</td>
+</tr>
+<td>Jam Hospital</td>
+<td>Tehran, Iran</td>
+<td>><ul><li>General medicine</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>Gynaecology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+</ul>
+</td>
+<td>https://jamhospital.ir/</td>
+</tr>
+<tr>
+<td>Maputo Central Hospital</td>
+<td>Maputo,Mozambique</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>http://www.hcm.co.mz/</td>
+</tr>
+<tr><td>Beira Central Hospital</td>
+<td>Beira, Mozambique</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://hcb.co.mz/</td>
+</tr>
+<tr>
+<td>Nampula Central Hospital</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://hcn.co.mz/hospital-central-de-nampula/</td>
+</tr>
+<tr>
+<td>Tokyo University Hospital</td>
+<td>Tokyo,Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.h.u-tokyo.ac.jp/english/index.html</td>
+</tr>
+<tr>
+<td>Osaka University Hospital</td>
+<td>Osaka, Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.hospital.med.osaka-u.ac.jp/english/</td>
+</tr>
+<tr>
+<td>Kyoto University Hospital</td>
+<td>Kyoto, Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.kuhp.kyoto-u.ac.jp/en/</td>
+</tr>
+<tr>
+<td>Hôpital Cochin</td>
+<td>Paris, France</td>
+<td><ul><li>Cardiology</li>
+<li>Pulmonology</li>
+<li>Endocrinology</li>
+<li>Infectious diseases</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Surgery</li>
+</ul></td>
+<td>https://www.aphp.fr/contenu/hopital-cochin-0</td>
+</tr>
+<tr>
+<td>Centre Hospitalier Universitaire de Toulouse</td>
+<td>Paris, France</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Hematology</li>
+<li>Pediatrics</li>
+<li>surgery</li>
+<li>Organ transplantation</li>
+<li>Cancer treatment</li>
+<li>Rare diseases</li>
+</ul></td>
+<td>https://www.chu-toulouse.fr/</td>
+</tr>
+<td>Centre Hospitalier Universitaire de Nice</td>
+<td>Nice, France</td>
+<td><ul><li>>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Dermatology</li>
+<li>gastroenterology</li>
+<li>surgery</li>
+<li>Cancer treatment</li>
+<li>Pediayric care</li>
+<li>Emergency medicine</li>
+</ul></td>
+<td>https://www.chu-nice.fr/</td>
+</tr>
+<tr>
+<td>Hospital Israelita Albert Einstein</td>
+<td>São Paulo, Brazil</td>
+<td><ul><li>Cancer treatment</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Pediatrics</li>
+<li>Orthopedics</li>
+<li>Medical research</li>
+<li>Healthcare technology</li>
+</ul></td>
+<td>https://www.einstein.br/</td>
+</tr>
+<tr>
+<td>Hospital Sírio-Libanês</td>
+<td>São Paulo, Brazil</td>
+<td><ul><li>Cardiology</li>
+<li>Oncology</li>
+<li>Neurology</li>
+<li>Orthopedics</li><li>Organ transplants</li>
+<li>Minimalli invasive surgeries</li>
+</ul></td>
+<td>https://www.hospitalsiriolibanes.org.br/</td>
+</tr>
+<tr>
+<td>Hospital Moinhos de Vento</td>
+<td>Porto Alegre, Brazil</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>gastroenterology</li>
+<li>Women's health</li>
+<li>Opthamology</li>
+<li>Plastic surgery</li>
+</ul></td>
+<td>https://www.hospitalmoinhos.org.br/</td>
+</tr>
