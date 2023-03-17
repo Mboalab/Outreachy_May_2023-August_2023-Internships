@@ -75,10 +75,11 @@ Also, medical facilities were selected based on region. Nearly an equal number o
 **I have also compiled this list in a spreadsheet. It is accessible at: [Erinle Samuel-Task0](https://docs.google.com/spreadsheets/d/1Jje07y97Hvdfhb3VNCKqTx0aFCMuWRkgSHamsLcGr9c/edit?usp=sharing)**
 
 ## Observation
+
 In order to enhance accessibility to information, and provide comprehensive data, it is imperative to group services into specialties and subspecialties, which is what I did in Task1.md.
 
-
 **NB:** All information in this list were obtained from [Wikipedia](https://www.wikipedia.org/) and the hospitals' websites. However, names of hospitals were gotten from many other websites like;
+
 - https://hospitals.webometrics.info/en/
 - https://www.beckershospitalreview.com/
 - https://www.newsweek.com/best-hospitals-2021
