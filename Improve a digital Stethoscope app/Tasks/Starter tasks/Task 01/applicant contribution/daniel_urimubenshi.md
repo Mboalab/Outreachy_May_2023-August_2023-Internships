@@ -7,6 +7,11 @@
 
 > I am interested in contributing to Improve digital stetoscope app.
 
+### Get in touch with me:
+- GitHub: [@benshidanny11](https://github.com/bensidanny11)
+- Twitter: [@DBenshi](https://twitter.com/DBenshi)
+- LinkedIn: [Daniel Urimubenshi](https://www.linkedin.com/in/danielurimubenshi/)
+
 
 
 
