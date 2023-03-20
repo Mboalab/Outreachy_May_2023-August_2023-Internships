@@ -30,5 +30,5 @@ Starter Task >> Task 1
 
 - Every field has some conditions. Like minimum letters, required filed, Must be a URL only, Must be a mail,includes _others_ as a checkbox option and a text area at the end, for additional information.
 
-- I have added a video, Please have a look.
+- I have added a video in the README file, Please have a look.-[README.md](https://github.com/Palaktahlyani/Data_collection_tool/blob/main/README.md)
   Here is the link to the tool - https://github.com/Palaktahlyani/Data_collection_tool
