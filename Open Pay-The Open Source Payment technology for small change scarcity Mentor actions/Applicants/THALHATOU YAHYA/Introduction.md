@@ -2,7 +2,7 @@ Hi there, my name is **Thalhatou Yahya** and I am an outreachy applicant who suc
 
 The Open Pay project's goal to create an open source payment technology for small change scarcity resonates with me deeply. I believe that technology should be accessible to everyone, regardless of their socio-economic background, and this project is an excellent opportunity to contribute to that vision.
 
-I believe that the Open Pay project is a great opportunity to make a positive impact on people's lives, by developing an open source payment technology that is accessible, user-friendly and adaptable to local contexts.Aside from my interest in this project, I'm also passionate about cybersecurity, Mobile App development, Artificial Inteligence and machine learning and my enthusiasm for community-driven solutions, I am confident that I can make meaningful contributions to the Open Pay project and learn valuable skills from your experienced team and **Mentors** as am open to learning new Technologies and Approached.
+I believe that the Open Pay project is a great opportunity to make a positive impact on people's lives, by developing an open source payment technology that is accessible, user-friendly and adaptable to local contexts.Aside from my interest in this project, I'm also passionate about cybersecurity, Mobile App development, Artificial Inteligence and machine learning and with my enthusiasm for community-driven solutions, I am confident that I can make meaningful contributions to the Open Pay project and learn valuable skills from your experienced team and **Mentors** as am open to learning new Technologies and Approached.
 
 <h3 align="left">📫&nbsp;How to reach me:</h3>
 
