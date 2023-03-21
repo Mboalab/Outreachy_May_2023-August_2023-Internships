@@ -30,35 +30,11 @@ Information isn't always commonly available: Some hospitals might not have a web
 
 | **Hospital**  | **Location**  | **links**       |**services offered**|
 | ------------- | ------------- |------------     |--------------------|
-| Mayo Clinic - Rochester  | USA  | https://www.mayoclinic.org/patient-visitor-guide/minnesota    | Cancer
-Neurology
-Cardiovascular diseases
-Transplant
-Executive health |
-| Cleveland Clinic | USA  |  http://www.clevelandclinic.org/   | Diseases & Conditions
-Diagnostics & Testing
-Treatments & Procedures
-Body Systems & Organs
-Drugs, Devices 
-      |
-| Massachusetts General Hospital  | United States Boston  | https://www.massgeneral.org/    | Cancer Center
-Dermatology
-Digestive Health Care
-Emergency Medicine
-Heart Center
-       |
-| Toronto General - University Health Network  | Canada Toronto  |  http://www.uhn.ca/   |  ALTUM HEALTH
-MENTAL HEALTH
- LABORATORY MEDICINE KREMBIL BRAIN
- MEDICAL IMAGING
- MEDICINE PROGRAM
-      |
-| Charité - Universitätsmedizin Berlin  | Germany Berlin  | http://www.charite.de/    | Blood Donation
-Poison Emergency
-Dental Care
-Violence Protection 
-First Aid
-      |
+| Mayo Clinic - Rochester  | USA  | https://www.mayoclinic.org/patient-visitor-guide/minnesota    | Cancer, Neurology ,Cardiovascular diseases,Transplant,Executive health |
+| Cleveland Clinic | USA  |  http://www.clevelandclinic.org/   | Diseases & Conditions,Diagnostics & Testing,Treatments &, Procedures,Body Systems & Organs,Drugs, Devices|
+| Massachusetts General Hospital  | United States Boston  | https://www.massgeneral.org/    | Cancer Center,Dermatology,Digestive Health Care,Emergency Medicine,Heart Center|
+| Toronto General - University Health Network  | Canada Toronto  |  http://www.uhn.ca/   |  ALTUM HEALTH, MENTAL HEALTH, LABORATORY MEDICINE KREMBIL BRAIN ,MEDICAL IMAGING, MEDICINE PROGRAM|
+| Charité - Universitätsmedizin Berlin  | Germany Berlin  | http://www.charite.de/    | Blood Donation Poison Emergency, Dental Care ,Violence Protection  ,First Aid |
 |The Johns Hopkins Hospital  | United States Baltimore  |  https://www.hopkinsmedicine.org/the_johns_hopkins_hospital   | Emergency Care
 Specialty care
 Primary care
