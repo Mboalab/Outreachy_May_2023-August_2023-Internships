@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title:  'MediLinkUp',
-      home: Login(),
+      home: HomePage(),
       routes: {
         '/login/':(context) => const Login(),
-        '/signup/':(context) => const Login(),
+        '/signup/' :(context) =>  SignUp(),
         '/Home/':(context) => const HomePage()
       },
     );
