@@ -1,0 +1,790 @@
+#This is a list of 50 Hospitals globally
+<table>
+<thead>
+<tr>
+<th>Hospital</th>
+<th>Location</th>
+<th> Services Offered </th>
+<th>Website Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kenyatta National Hospital</td>
+<td>Nairobi, Kenya</td>
+<td>
+<ul> <li>Paediatrics Department</li>
+<li>Medicine Department</li>
+<li>Cancer Treatment Centre</li>
+<li>Renal Department</li>
+<li>Cardiology Department</li>
+<li>Dermatology Unit</li>
+<li>Mental Health Department</li>
+<li>Nutrition Department</li>
+<li>Medical Social Work Unit</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://knh.or.ke/</td>
+</tr>
+<tr>
+<td>Aga Khan Hospital</td>
+<td>Nairobi, Kenya</td>
+<td>
+<ul><li>Oncology</li>
+<li>Critical Care</li>
+<li>Cardiology</li>
+<li>Haematology</li>
+<li>Rdiology and Imaging</li>
+<li>Physiotherapy</li>
+</ul>
+</td>
+<td>https://hospitals.aku.edu/nairobi/Pages/default.aspx</td>
+</tr>
+<tr>
+<td>Nakasero Hospital</td>
+<td>Kampala, Uganda</td>
+<td>
+<ul><li>Paediatrics</li>
+<li>Dental</li>
+<li>Cardiology</li>
+<li>General Surgery</li>
+<li>Endocrinology</li>
+<li>Radiology<li>
+<li>Ear, Nose and Throat </li>
+<li>Orthopaedics</li>
+<li>Neurology</li>
+<li>Opthamology</li></ul>
+</td>
+<td>https://nakaserohospital.com/</td>
+</tr>
+<tr>
+<td>Kisiizi Hospital</td>
+<td>Republic road, Rukungiri, Uganda</td>
+<td>
+<ul><li>Paediatrics</li>
+<li>Psychiatry</li>
+<li>Epilepsy</li>
+<li>General Surgery</li>
+<li>Rehabilitation</li>
+<li>Dental<li>
+<li>Imaging</li>
+<li>Opthamology</li>
+<li>Maternity</li>
+<li>Gynacology</li>
+<li>Pharmacy</li>
+</ul></td>
+<td>http://www.kisiizihospital.org.ug/</td>
+</tr>
+<tr>
+<td>Butabika National Referral Hospital</td
+<td>Kampala, Uganda</td>
+<td>
+<li>Psychiatry</li>
+<li>Epilepsy</li>
+<li>General Surgery</li>
+<li>Rehabilitation</li>
+<li>Imaging</li>
+<li>Opthamology</li>
+<li>Maternity</li>
+<li>Gynacology</li>
+<li>Pharmacy</li>
+</ul></td>
+<td>https://www.butabikahospital.go.ug/</td>
+</tr>
+<tr>
+<td>Muhimbili National Hospital</td>
+<td>Dar es Salaam, Tanzania</td>
+<td>
+<ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>www.mnh.or.tz</td>
+</tr>
+<tr>
+<td>Aga Khan Hospital</td>
+<td>Dar es Salaam, Tanzania</td>
+<td><ul><li>Dentistry</li>
+<li>General Surgery</li>
+<li>Paediatrics</li>
+<li>Gynecology</li>
+<li>Maternity</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://www.agakhanhospitals.org/en/dar-es-salaam</td>
+</tr>
+<tr>
+<td>Sali International Hospital</td>
+<td>Dar es Salaam, Tanzania</td>
+<td>
+<ul><li>Paediatrics</li>
+<li>General Surgery</li>
+<li>Orthopedics</li>
+<li>Dental<li>
+<li>Imaging</li>
+<li>Opthamology</li>
+<li>Maternity</li>
+<li>Gynacology</li>
+<li>Pharmacy</li>
+</ul></td>
+<td>www.salihospital.com</td>
+</tr>
+<tr>
+<td>Hopital La Croix du Sud</td>
+<td>Kigali, Rwanda</td>
+<td><ul><li>Paediatrics</li>
+<li>General Surgery</li>
+<li>Orthopedics</li>
+<li>Dental<li>
+<li>Imaging</li>
+<li>Orthodontics</li>
+<li>Neonatology</li>
+<li>Gynacology</li>
+<li>Laboratory</li>
+<li>Emergency</li>
+<li>Obstetrics</li>
+<li>Physiotherapy</li>
+<li>Family Planning</li>
+<li>Intensive Care Unit</li>
+</ul>
+</td>
+<td>https://hopitalcroixdusud.com</td>
+</tr>
+<td>Baho International Hospital</td>
+<td>Kigali,Rwanda</td>
+<td><ul><li>Pregnancy Test</li>
+<li>Gynecology</li>
+<li>Allergy</li>
+<li>Pediatry</li>
+<li>Surgery</li>
+<li>Endoscopy</li>
+<li>Neonatology</li>
+<li>Laboratory Tests</li>
+<li>Ambulance Car</li>
+<li>Pharmacy Support</li>
+<li>Operational Theater</li>
+<li>Health Check</li>
+</ul></td>
+<td>bahointernationalhospital.com</td>
+</tr>
+<tr>
+<td>Polyclinique du Plateau Ltd</td>
+<td>Kigali,Rwanda</td>
+<td><ul><li>General Medicine</li>
+<li>Internal Medicine</li>
+<li>ECG Diagnostic</li>
+<li>Pediatrics</li>
+<li>Obstetrics</li>
+<li>Gunecology</li>
+<li>Dentistry</li>
+<li>Opthamology</li>
+<li>Mental Health</li>
+<li>Vaccination</li>
+<li>Dermatology</li>
+<li>Neuropsychiatry</li>
+</ul></td>
+<td>https://polycliniqueduplateau.rw</td>
+</tr>
+<tr>
+<td>Kira Hospital</td>
+<td>Bujumbura, Burundi</td>
+<td>><ul><li>Pharmacy</li>
+<li>Orthodontics</li>
+<li>Opthamology</li>
+<li>Laboratory</li>
+<li>Imagery</li>
+<li>Anaesthetics</li>
+<li>Emeergency Services </li>
+<li>Paediatrics</li>
+<li>Gynacology</li>
+<li>Internal Medicins</li>
+<li>Chirurgie</li>
+</ul>
+</td>
+<td>kirahospital.org</td>
+</tr>
+<tr>
+<td>Hospital Prince Régent Charles</td>
+<td>Bujumbura, Burundi</td>
+<td><ul><li>Pregnancy Test</li>
+<li>Gynecology</li>
+<li>Allergy</li>
+<li>Pediatry</li>
+<li>Surgery</li>
+<li>Endoscopy</li>
+<li>Neonatology</li>
+<li>Laboratory Tests</li>
+<li>Ambulance Car</li>
+<li>Pharmacy Support</li>
+<li>Operational Theater</li>
+<li>Health Check</li>
+</ul></td>
+<td>http://hprc-burundi.bi/</td>
+</tr>
+<tr>
+<td>Centre Hopitalo Universitaire de Kamenge Roi Khaled</td>
+<td>Bujumbura, Burundi</td>
+<td>
+<ul><li>Paediatrics</li>
+<li>General Surgery</li>
+<li>Orthopedics</li>
+<li>Dental<li>
+<li>Imaging</li>
+<li>Opthamology</li>
+<li>Maternity</li>
+<li>Gynacology</li>
+<li>Pharmacy</li>
+</ul></td>
+<td>https://www.chuk.bi/</td>
+</tr>
+<tr><td>HJ Hospitals</td>
+<td>Kinshasa, Democratic Republic of Congo</td>
+<td><ul><li>Cardiology</li>
+<li>Dermatology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Laproscopy</li>
+<li>Gastrology</li>
+<li>Opthamology</li>
+<li>Emergency Services</li>
+<li>Nephrology</li>
+<li>Urology</li>
+<li>Fertility</li>
+<li>Internal Medicine</li>
+<li>Dentistry</li>
+</ul></td>
+<td>https://www.hjhospitals.org/</td>
+</tr>
+<tr>
+<td>General University Hospital of Alicantet</td>
+<td>Alicante, Spain</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://alicante.san.gva.es/</td>
+</tr>
+<tr>
+<td>Mayo Clinic</td>
+<td>Rochester, Minnesota. USA</td>
+<td><ul><li>General Medicine</li>
+<li>Oncology</li>
+<li>Cardiology</li>
+<li>Neurlogy</li>
+<li>Imaging</li>
+<li>Opthamology</li>
+<li>Maternity</li>
+<li>Gynacology</li>
+<li>Pharmacy</li>
+</ul></td>
+<td>www.mayoclinic.org</td>
+</tr>
+<tr>
+<tr>
+<td>Cleveland Clinic</td>
+<td>Cleveland, Ohio, USA </td>
+<td><ul><li>Paediatrics</li>
+<li>General Surgery</li>
+<li>Orthopedics</li>
+<li>Dental<li>
+<li>Imaging</li>
+<li>Orthodontics</li>
+<li>Neonatology</li>
+<li>Gynacology</li>
+<li>Laboratory</li>
+<li>Emergency</li>
+<li>Obstetrics</li>
+<li>Physiotherapy</li>
+<li>Family Planning</li>
+<li>Intensive Care Unit</li>
+</ul>
+</td>
+<td>my.clevelandclinic.org</td>
+</tr>
+<tr>
+<td>John Hopkins Hospital</td>
+<td>Baltimore, Maryland, USA</td>
+<td><ul><li>Neurology</li>
+<li>Oncology</li>
+<li>Cardiology</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>www.hopkinsmedicine.org</td>
+</tr>
+<tr>
+<td>Toronto General Hospital</td>
+<td>Toronto, Ontario, Canada</td>
+<td><ul><li>Transplant</li>
+<li>Cardiology</li>
+<li>Oncology</li>
+<li>Neurology</li>
+</ul></td>
+<td>www.uhn.ca/TGH/</td>
+</tr>
+<tr>
+<td>Singapore General Hospital</td>
+<td>Singapore</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>www.sgh.com.sg</td>
+</tr>
+<tr>
+<td>King Faisal Specialist Hospital & Research Centre</td>
+<td>Riyadh, Saudi Arabia</td>
+<td><ul><li>Oncoology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Nephrology</li>
+<li>Paediatrics</li>
+</ul>
+</td>
+<td>https://www.kfshrc.edu.sa</td>
+</tr>
+<tr>
+<td>Apollo Hospitals</td>
+<td>Chennai, India</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Orthopedics</li>
+<li>Oncology</li>
+<li>Transplantation</li>
+</ul>
+</td>
+<td>https://www.apollohospitals.com</td>
+</tr>
+<tr>
+<td>Aga Khan University Hospital</td>
+<td>Karachi, Pakistan</td>
+<td><ul><li>Cardiology</li>
+<li>Oncology</li>
+<li>Neurology</li>
+<li>Nephrology</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://hospitals.aku.edu/pakistan</td>
+</tr>
+<tr>
+<td>Medanta - The medicity</td>
+<td>Gurgaon, India</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Gastroenterology<li>
+</ul></td>
+<td>https://www.medanta.org</td>
+</tr>
+<tr>
+<td>American Hospital Dubai</td>
+<td>Dubai, UAE</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Nephrology</li>
+<li>Paediatrics</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+</ul></td>
+<td>https://www.ahdubai.com</td>
+</tr>
+<tr>
+<td>Al-Ahli Hospital</td>
+<td>Doha, Qatar</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://www.ahlihospital.com</td>
+</tr>
+<tr>
+<td>Bumrungrad International Hospital</td>
+<td>Bangkok, Thailand</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Transplantation</li>
+</ul>
+</td>
+<td>https://www.bumrungrad.com</td>
+</tr>
+<tr>
+<td>Prince Court Medical Centre</td>
+<td>Kuala Lumpur, Malaysia</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Pediatrics</li>
+</ul>
+</td>
+<td>https://www.princecourt.com</td>
+</tr>
+<tr>
+<td>Netcare Milpark Hospital</td>
+<td>Johannesburg, South Africa</td>
+<td><ul><li>Gastroenterology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul>
+</td>
+<td>https://www.netcare.co.za/Our-Hospitals/Hospitals/Netcare-Milpark-Hospital</td>
+</tr>
+<tr>
+<td>Assuta Medical Center</td>
+<td>Tel Aviv, Israel</td>
+<td><ul><li>Gastroenterology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul>
+</td>
+<td> https://www.assuta.co.il/en</td>
+</tr>
+<tr>
+<td>Gleneagles Hospital - Singapore</td>
+<td>Singapore</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Orthopedics</li>
+<li>Paediatrics</li>
+</ul></td>
+<td>https://www.gleneagles.com.sg</td>
+</tr>
+<td>St. Thomas' Hospital</td>
+<td>London, United Kingdom</td>
+<td><ul><li>Cardiology</li> <li>Dermatology</li> <li>Diabetes and endocrinology</li> <li>Ear nose and throat</li><li> Gastroenterology</li><li>General surgery</li><li> Geriatric medicine,
+</li><li>Gynaecology</li><li> Haematology</li><li> Infectious diseases</li><li>Neurology</li><li>Oncology</li><li> Ophthalmology</li> <li>Orthopaedics</li> <li>Paediatric medicine</li><li> Pain management</li><li> Renal medicine</li><li>Respiratory medicine</li><li>Rheumatology</li><li> Sexual health</li><li> Stroke medicine</li><li> Urology</li>
+</ul></td>
+<td>https://www.guysandstthomas.nhs.uk/</td>
+</tr>
+<tr>
+<td>Royal Manchester Children's Hospital</td>
+<td>Manchester, Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+</ul>
+</td>
+<td>https://mft.nhs.uk/rmch/</td>
+</tr>
+<tr>
+<td>University Hospitals Birmingham NHS Foundation Trust</td>
+<td>Birmingham, United Kingdom</td>
+<td><ul><li>Obstetrics and gynaecology</li>
+<li>Endocrinology</li>
+<li> Adult major trauma</li>
+<li>Cancer</li>
+<li>Critical care</li>
+<li>Ear, Nose and throat</li>
+<li>Stroke</li>
+<li>Rheumatology</li>
+</ul></td>
+<td>https://www.uhb.nhs.uk/</td>
+</tr>
+<tr>
+<td>Royal Sussex County Hospital</td>
+<td>Brighton, United Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+</ul>
+</td>
+<td>https://www.bsuh.nhs.uk/</td>
+</tr>
+<tr>
+<td>John Radcliffe Hospital</td>
+<td>Oxford, United Kingdom</td>
+<td><ul><li>General paediatrics</li>
+<li>Specialist surgery</li>
+<li>Oncology and haematology</li>
+<li> Respiratory and allergy</li>
+<li>Hepatology and nutrition</li>
+<li>Infectious diseases and immunology</li>
+<li>Genetics and metabolic medicine</li>
+<li>Dentistry and orthodontics</li>
+<li>Otolaryngology</li>
+<li>Palliative care</li>
+<li> Sexual health</li>
+<li>Children's services</li>
+</ul>
+</td>
+<td>https://www.ouh.nhs.uk/</td>
+</tr>
+<tr><td>Centre Hospitalier Universitaire Joseph Raseta Befelatanana (CHUJRB)</td>
+<td>Analamahitsy, Antananarivo, Madagascar</td>
+<td><ul><li>Emergency care</li>
+<li>surgery<li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>gynecology</li>
+<li>cardiology</li>
+<li>neurology</li>
+</ul></td>
+<td>http://www.chujrb.mg/</td>
+</tr>
+<tr>
+<td>Centre Hospitalier Universitaire HJRA (CHU-HJRA)</td>
+<td><ul><li>General medicine</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>Gynaecology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+</ul>
+</td>
+<td>Hydrocarbures, Antananarivo, Madagascar</td>
+<td>http://www.chuhjra.mg/</td>
+</tr>
+<tr><td>Hôpital de Befelatanana</td>
+<td>Antananarivo, Madagascar</td>
+<td><ul><li>Emergency care</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>gynecology</li>
+<li>cardiology</li>
+<li>neurology</li></ul></td>
+<td>https://www.facebook.com/CHUJRB/?locale=fr_FR</td>
+</tr>
+<tr>
+<td>Ibn Sina Hospital</td>
+<td> Baghdad, Iraq</td
+<td><ul><li>Laboratory</li>
+<li>Containment</li>
+<li>Imagery</li>
+<li>Ophthamology</li>
+<li>Tramautic cases</li>
+<li>Emergencies</li>
+<li>Internal Medicine</li>
+<li>Research</li>
+</ul></td>
+<td>https://ibnsinahospital.iq/</td>
+</tr>
+<tr><td>Tehran Hospital</td>
+<td>Tehran, Iran</td>
+<td><ul><li>Heart Surgery</li>
+<li>Dentistry</li>
+<li>Clinical Services</li>
+<li>Orthopedagogy</li>
+<li>Gastroenterology</li>
+<li>Neurology<li></ul>
+</td>
+<td>https://tehran-hospital.ir/</td>
+</tr>
+<td>Jam Hospital</td>
+<td>Tehran, Iran</td>
+<td>><ul><li>General medicine</li>
+<li>surgery</li>
+<li>pediatrics</li>
+<li>obstetrics</li>
+<li>Gynaecology</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+</ul>
+</td>
+<td>https://jamhospital.ir/</td>
+</tr>
+<tr>
+<td>Maputo Central Hospital</td>
+<td>Maputo,Mozambique</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>http://www.hcm.co.mz/</td>
+</tr>
+<tr><td>Beira Central Hospital</td>
+<td>Beira, Mozambique</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://hcb.co.mz/</td>
+</tr>
+<tr>
+<td>Nampula Central Hospital</td>
+<td><ul> <li>Paediatrics</li>
+<li>Pharmacy</li>
+<li>Nutrition and Dietetics</li>
+<li>In-patient care</li>
+<li>Cardiology</li>
+<li>Dermatology</li>
+<li>Ear, Nose and throat</li>
+<li>Clinical Services</li>
+<li>Maternity</li>
+<li>Surgical Services</li>
+</ul></td>
+<td>https://hcn.co.mz/hospital-central-de-nampula/</td>
+</tr>
+<tr>
+<td>Tokyo University Hospital</td>
+<td>Tokyo,Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.h.u-tokyo.ac.jp/english/index.html</td>
+</tr>
+<tr>
+<td>Osaka University Hospital</td>
+<td>Osaka, Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.hospital.med.osaka-u.ac.jp/english/</td>
+</tr>
+<tr>
+<td>Kyoto University Hospital</td>
+<td>Kyoto, Japan</td>
+<td><ul><li>Emergency care</li>
+<li>Cancer treatment</li>
+<li>Organ transplant</li>
+<li>Cardiovascular surgery</li>
+<li>Neurosurgery</li>
+</ul>
+</td>
+<td>https://www.kuhp.kyoto-u.ac.jp/en/</td>
+</tr>
+<tr>
+<td>Hôpital Cochin</td>
+<td>Paris, France</td>
+<td><ul><li>Cardiology</li>
+<li>Pulmonology</li>
+<li>Endocrinology</li>
+<li>Infectious diseases</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Surgery</li>
+</ul></td>
+<td>https://www.aphp.fr/contenu/hopital-cochin-0</td>
+</tr>
+<tr>
+<td>Centre Hospitalier Universitaire de Toulouse</td>
+<td>Paris, France</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Hematology</li>
+<li>Pediatrics</li>
+<li>surgery</li>
+<li>Organ transplantation</li>
+<li>Cancer treatment</li>
+<li>Rare diseases</li>
+</ul></td>
+<td>https://www.chu-toulouse.fr/</td>
+</tr>
+<td>Centre Hospitalier Universitaire de Nice</td>
+<td>Nice, France</td>
+<td><ul><li>>Cardiology</li>
+<li>Neurology</li>
+<li>Oncology</li>
+<li>Dermatology</li>
+<li>gastroenterology</li>
+<li>surgery</li>
+<li>Cancer treatment</li>
+<li>Pediayric care</li>
+<li>Emergency medicine</li>
+</ul></td>
+<td>https://www.chu-nice.fr/</td>
+</tr>
+<tr>
+<td>Hospital Israelita Albert Einstein</td>
+<td>São Paulo, Brazil</td>
+<td><ul><li>Cancer treatment</li>
+<li>Cardiology</li>
+<li>Neurology</li>
+<li>Pediatrics</li>
+<li>Orthopedics</li>
+<li>Medical research</li>
+<li>Healthcare technology</li>
+</ul></td>
+<td>https://www.einstein.br/</td>
+</tr>
+<tr>
+<td>Hospital Sírio-Libanês</td>
+<td>São Paulo, Brazil</td>
+<td><ul><li>Cardiology</li>
+<li>Oncology</li>
+<li>Neurology</li>
+<li>Orthopedics</li><li>Organ transplants</li>
+<li>Minimalli invasive surgeries</li>
+</ul></td>
+<td>https://www.hospitalsiriolibanes.org.br/</td>
+</tr>
+<tr>
+<td>Hospital Moinhos de Vento</td>
+<td>Porto Alegre, Brazil</td>
+<td><ul><li>Cardiology</li>
+<li>Neurology</li>
+<li>gastroenterology</li>
+<li>Women's health</li>
+<li>Opthamology</li>
+<li>Plastic surgery</li>
+</ul></td>
+<td>https://www.hospitalmoinhos.org.br/</td>
+</tr>
