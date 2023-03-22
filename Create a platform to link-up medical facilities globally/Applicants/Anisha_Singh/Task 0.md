@@ -29,7 +29,7 @@ Here are a few examples:
 
 * The Aga Khan University Hospital is a non-profit hospital network in Pakistan that provides high-quality healthcare services to patients from all over the country. The hospital offers a range of services, including emergency care, surgery, and treatment for chronic conditions such as cancer and heart disease.
 
-   Website:  (https://hospitals.aku.edu/)
+   Website: (https://hospitals.aku.edu/)
 
 These are just a few examples of charitable global hospitals that are making a difference in the lives of people around the world. There are many more organisations like these that are working tirelessly to provide healthcare services to those in need, regardless of their ability to pay.
 
