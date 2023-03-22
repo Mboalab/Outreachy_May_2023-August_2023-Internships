@@ -19,13 +19,17 @@ Making this tool a Web application will make it very easy for anyone to use, by 
 
 ## Design Considerations
 
+
+![Data Collection tool presentation](https://user-images.githubusercontent.com/92654117/227012342-7f2b1064-9841-49ca-8969-865aa7c3ac42.jpg)
+
+
 [Data Collection Tool Figma Design](https://www.figma.com/proto/2XpR22cOaDDZGy8At1Q5xd/Mboa-Lab-Data-Collection--Tool?node-id=9-879&scaling=min-zoom&page-id=9%3A626)
 
 This is a draft design proposal for the look and functionality of the tool. This design is by no means the final version but an early MVP. It features a simple
 
 - Authentication screens
 
-- A simple application, where the user can add a hospital or Medical Facility.
+- A simple application, where the user can add a Hospital or Medical Facility.
 
 - A Medical facility/Hospital has some basic information such as 
 
@@ -33,7 +37,7 @@ This is a draft design proposal for the look and functionality of the tool. This
   - Description
   - Location
   - Gallery of pictures (still to be implemented)
-  - Basic Contact information
+  - Basic Contact information (phone, email, website)
   - And a Google Map Location (Still to be implemented)
 
 - In addition to the basic information about a Medical facility, facilities will also have some essential "medical" information which can include we have grouped into 2 main groups. **Facilities** and **Services**
