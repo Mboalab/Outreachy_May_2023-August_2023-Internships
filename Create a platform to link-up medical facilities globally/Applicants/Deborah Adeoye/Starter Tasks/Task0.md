@@ -18,9 +18,23 @@ Overall, the list provides a broad overview of some of the active global hospita
 Additionally, I have provided links to the websites of each hospital to facilitate access to further information about the facilities and their services:
 | Hospital Name | Location | Services Offered | Website |
 | ------------- | -------- | ---------------- | ------- |
-| Hospital Italiano de Buenos Aires |	Buenos Aires, Argentina |	General medical services, including oncology, cancer care, cardiology, neurology, pediatrics, psychiatry, surgery, and more |	https://www.hospitalitaliano.org.ar/en/home/ |
-| Royal Melbourne Hospital | Melbourne, Australia |	Cancer care, critical care, neuroscience, mental health, women's health, trauma, and more |	https://www.thermh.org.au/ |
+| Netcare Milpark Hospital | Johannesburg, South Africa	| General Medicine, Cardiology, Oncology, Neurology, Gastroenterology	| https://www.netcare.co.za/ |													
+| Lagos University Teaching Hospital | Lagos, Nigeria	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology |	https://luth.gov.ng/ |
 | The Alfred Hospital |	Melbourne, Australia |	General Medical Services |	https://www.alfredhealth.org.au/the-alfred |
+| Aga Khan University Hospital | Nairobi, Kenya | General Medicine, Cardiology, Oncology, Pediatrics, Neurology	| https://hospitals.aku.edu/kenya |
+| Kenyatta National Hospital	| Nairobi, Kenya	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| https://www.knh.or.ke/ |
+| Cairo University Hospital	| Cairo, Egypt	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| https://cu.edu.eg/ |
+| Al-Zahra Hospital	| Tunis, Tunisia	| General Medicine, Cardiology, Oncology, Pediatrics, Neurology	| http://www.alzahra.tn/ |
+| Ahmed Gasim Hospital	| Khartoum, Sudan	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| https://www.ahmedgasimhospital.com/ |
+| International Hospital Kampala	| Kampala, Uganda	| General Medicine, Cardiology, Oncology, Pediatrics, Neurology	| https://ihkampala.com/ |
+| Addis Hiwot General Hospital	| Addis Ababa, Ethiopia	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| http://www.addishiwot.com/ |
+| Panzi Hospital	| Bukavu, Democratic Republic of the Congo	| General Medicine, Obstetrics and Gynecology, Gender-Based Violence Treatment	| https://www.panzihospital.org/ |
+| Rabat-Salé University Hospital	| Rabat, Morocco	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| http://www.churabat.ma/ |
+| Windhoek Central Hospital| 	Windhoek, Namibia	| General Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Radiology	| https://www.health-namibia.com/windhoek-central-hospital/ |
+| University College Hospital	| Ibadan, Nigeria	| General medical services, gynecology, obstetrics, orthopedics, pediatrics, oncology, radiology	| https://uchibadan.edu.ng/ |																					
+| National Hospital, Abuja	| Abuja, Nigeria	| General medical services, neurology, oncology, ophthalmology, urology, hematology, radiology	| https://nationalhospital.gov.ng/ |
+| Ahmadu Bello University Teaching Hospital	| Zaria, Nigeria	| General medical services, neurology, cardiology, orthopedics, pediatrics, oncology, radiology	| https://abuth.gov.ng/ |
+| University of Nigeria Teaching Hospital	| Enugu, Nigeria	| General medical services, psychiatry, orthopedics, ophthalmology, radiology, oncology	| https://unthenugu.edu.ng/teaching-hospital/ |
 | The Royal Children's Hospital | Melbourne	Melbourne, Australia |	General Medical Services |	https://www.rch.org.au/ |
 | Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo |	São Paulo, Brazil |	General medical services, surgery, cardiology |	https://hc.fm.usp.br/ |
 | Hospital de Clínicas de Porto Alegre |	Porto Alegre, Brazil |	General medical services, Cardiology, Neurology, Oncology, Orthopaedics, Surgery |	https://www.hcpa.edu.br/ |
@@ -41,31 +55,17 @@ Additionally, I have provided links to the websites of each hospital to facilita
 | Hamad Medical Corporation |	Doha, Qatar |	General medical services, surgery, cardiology |	https://www.hamad.qa/EN/Pages/default.aspx |
 | King Fahd Medical City |	Riyadh, Saudi Arabia |	General medical services, including cardiology, neurology, and orthopedics |	https://www.kfmc.med.sa/ |
 | Singapore General Hospital |	Singapore |	General medical services, including surgery, cardiology, neurology, and oncology |	https://www.sgh.com.sg/ |
-| Asan Medical Center |	Seoul, South Korea |	General medical services, including cardiology, neurology, and oncology |	https://www.amc.seoul.kr/asan/english/main/main.do |
 | Samsung Medical Center |	Seoul, South Korea |	Cancer care, cardiology, neurology, psychiatry, surgery, and more |	https://www.samsunghospital.com/ |
 | Seoul National University Hospital |	Seoul, South Korea |	General medical services, surgery, cardiology |	https://www.snuh.org/global/en/main.do |
 | Severance Hospital |	Seoul, South Korea |	General medical services, surgery, cardiology |	https://severance.snuh.org/ |
-| Hospital Clínic de Barcelona |	Barcelona, Spain |	Cancer care, cardiology, neurology, pediatrics, psychiatry, surgery, and more |	https://www.clinicbarcelona.org/en |
 | Hospital Universitario 12 de Octubre |	Madrid, Spain |	General medical services, Cardiology, Neurology, Oncology, Orthopaedics, Surgery |	https://www.12octubre.es/	 |
 | Hospital Universitario HM Montepríncipe |	Madrid, Spain |	General Medical Services |	https://www.hmmonteprincipe.com/ |
-| Hospital Universitario La Paz |	Madrid, Spain |	General medical services, surgery, cardiology |	https://www.madrid.org/cs/Satellite?c=Page&cid=1142683211789&language=es&pageid=1142683211789&pagename=HospitalLaPaz%2FPage%2FHLaP_inicio |
 | Karolinska University Hospital |	Stockholm, Sweden |	General medical services, surgery, cancer treatment |	https://www.karolinska.se/ |
 | China Medical University Hospital |	Taichung, Taiwan |	General Medical Services |	https://www.cmuh.cmu.edu.tw/
 | National Taiwan University Hospital |	Taipei, Taiwan |	General medical services, Cancer care, Cardiology, Neurology, Orthopaedics, Surgery |	https://www.ntuh.gov.tw/ |
 | Bumrungrad International Hospital |	Bangkok, Thailand |	General medical services, including cardiology, oncology, and orthopedics |	https://www.bumrungrad.com/ |
-| Barnes-Jewish Hospital |	Missouri, USA |	Cancer care, cardiology, neurology, psychiatry, transplant, and more |	https://www.barnesjewish.org/ |
-| Children's National Hospital |	Washington, D.C., USA |	Pediatric medical services, Cancer care, Cardiology, Neurology, Orthopaedics, Surgery |	https://childrensnational.org/ |
-| Cleveland Clinic |	Cleveland, Ohio, USA |	General medical services, including cardiology, neurology, digestive diseases, and more |	https://my.clevelandclinic.org/ |
 | John Hopkins Hospital |	Baltimore, Maryland, USA |	General medical services, including cancer treatment, cardiology, neurology, and orthopedics |	https://www.hopkinsmedicine.org/ |
-| Massachusetts General Hospital |	Boston, Massachusetts, USA |	General medical services, cancer treatment, cardiology, psychiatry, orthopedics and more |	https://www.massgeneral.org/ |
 | Mayo Clinic |	Rochester, Minnesota, USA |	General medical services, cancer treatment, surgery and more |	https://www.mayoclinic.org/ |
-| St. Jude Children's Research Hospital |	Memphis, Tennessee, USA |	Specializes in pediatric oncology and research |	https://www.stjude.org/ |
-| University of Michigan Health System |	Michigan, USA |	Cancer treatment, cardiology, pediatrics, emergency medicine, neurology, psychiatry, surgery, and more |	https://www.uofmhealth.org/ |
-| University of Texas MD Anderson Cancer Center |	Houston, Texas |	Cancer treatment, surgery |	https://www.mdanderson.org/ |
-| King's College Hospital |	London, UK |	Cancer care, cardiology, neurology, pediatrics, psychiatry, transplant, and more |	https://www.kch.nhs.uk/ |
-| Queen Elizabeth Hospital | Birmingham	Birmingham, UK |	General Medical Services |	https://www.uhb.nhs.uk/ |
-| Royal Marsden Hospital |	London, UK |	General Medical Services |	https://www.royalmarsden.nhs.uk/ |
-| Royal Papworth Hospital |	Cambridge, UK |	Cardiology, respiratory medicine, transplant, and more |	https://www.royalpapworth.nhs.uk/ |
 | The Royal London Hospital |	London, United Kingdom |	General medical services, surgery, cardiology |	https://www.bartshealth.nhs.uk/theroyallondon |
 | The Royal Marsden Hospital |	London, UK |	Specializes in cancer treatment and research |	https://www.royalmarsden.nhs.uk/ |
 
