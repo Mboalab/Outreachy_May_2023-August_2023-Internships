@@ -93,7 +93,17 @@ loop to train the model, as part of the training loop, we would evaluate the mod
 
 data. We would then do inference on unseen data, one way is by keeping aside a test audio dataset
 
-from the original data.
+from the original data
+
+**Conclusion**
+
+After the model has been trained and evaluated using metrics like F1-score, precision, recall, confusion matrix
+
+and the model has achieved a performance that is relevant in real world application. The model can be deployed
+
+to any platform or service and the model will be updated (retrained) on new data after a certain period of time
+
+to improve its accuracy over time. 
 
 
 **References**
