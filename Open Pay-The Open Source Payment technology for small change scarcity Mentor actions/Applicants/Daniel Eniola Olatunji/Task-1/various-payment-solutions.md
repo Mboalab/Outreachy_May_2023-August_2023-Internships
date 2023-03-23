@@ -1,27 +1,22 @@
 # Payment Solutions - Various Payment Solutions
 
-Various Payment solutions have risen up and become quite popular in the past years, as the internet keeps getting a lot mpre adoption and as digital transactions get more popular. Below, we shall be exploring various Payment solutions and their details.
+Various Payment solutions have risen up and become quite popular in the past years, as major adoption of the internet is ever increasing and as e-commerce and digital transactions get more and more popular. Below, we shall be exploring various Payment solutions.
 
 
+## 1. UPI 123pay
 
-## 1. UPI123pay
-
-This Payment solution is in some way similar to the project that we at MboaLab are working on, especially because of "Feature phones(mobile phones with fixed features)", which can be viewed as a miniaturised hardware device that has one specific use.
+This Payment solution is in some way similar to the project that we at MboaLab are working on, especially because of the "Feature phones(mobile phones with fixed features)", which can be viewed as a miniaturised hardware device that has one specific use.
 
 Feature phone users can conduct a variety of transactions based on four technological alternatives via UPI 123PAY; calling an IVR (interactive voice response) number, app functionality in feature phones, a missed call-based approach, and proximity sound-based payments.
 
 The Reserve Bank of India (RBI) recently launched an interactive IVR (Interactive Voice Response)-based Unified Payment Interface (UPI) service called ‘UPI123pay’, which can be used even by those who do not have a smartphone or an active internet connection.
 
-Users of this service simply need to give a missed call to the pre-defined IVR number displayed on the merchant’s counter and need to enter their UPI PIN when asked to. UPI123Pay is a giant leap forward towards mass inclusion and extension of digital payments in a secure manner to non-smartphone users. It democratises digital banking and removes dependence on the internet. Anyone, even with a simple feature phone, will now get access to digital banking. The proximity sound-based payments feature in the UPI123Pay app uses high-frequency ultrasound waves for data transfer between mobile phones thus it does not require internet. 
-
-
+Users of this service simply need to give a missed call to the pre-defined IVR number displayed on the merchant’s counter and need to enter their UPI PIN when asked to. UPI123Pay is a giant leap forward towards mass inclusion and extension of digital payments in a secure manner to non-smartphone users. It democratises digital banking and removes dependence on the internet. Anyone, even with a simple feature phone, will now get access to digital banking. The proximity sound-based payments feature in the UPI123Pay app uses high-frequency ultrasound waves for data transfer between mobile phones thus it does not require an internet connection. 
 
 More details about this Payment solution can be found [here](upi123pay.md).
 
 
-
-
-## 2. Mobile point of sale (mPOS) systems
+## 2. Mobile Point-of-Sale(mPOS) Systems
 
 Mobile point of sale systems most commonly come to mind when discussing digital payments. mPOS systems work through smartphones, tablets, and other wireless devices to accept payments from anywhere.
 
@@ -34,8 +29,7 @@ In addition, most mPOS software solutions come with features that allow business
 Mobile POS systems are easy to adopt. Solutions providers like Stax integrate with a range of solutions to enable merchants to go mobile.
 
 
-
-## 3. Point-of-Sale (POS) Machines
+## 3. Point-of-Sale(POS) Machines
 
 These have been around for quite some time. POS machines enable a user to pay via debit or credit cards. It eliminates the hassle of carrying large sums of cash for both the customer and the merchant.
 
@@ -46,11 +40,11 @@ A POS machine is one of the most advanced payments accepting devices. The bigges
 Since the complete process is digital, it eliminates human errors and helps manage and track inventory in real-time.
 
 
+## 4. Contactless Payments
 
-## 4. Contactless payments
-Contactless payment methods are rapidly becoming table stakes for consumers and businesses alike. Thankfully, the technology was already there, and today most businesses accepting card payments are accepting contactless.
+Contactless payment methods are rapidly becoming table stakes for consumers and businesses alike. Thankfully, the technology was already there, and today most businesses accepting card payments are accepting Contactless payments.
 
-Contactless payments are powered by near-field communication (NFC) technology. This allows contactless-enabled cards to connect with the right devices to perform the transaction. This is the same technology that has paved the way for mobile wallets.
+Contactless payments are powered by Near-Field Communication (NFC) technology. This allows Contactless-enabled cards to connect with the right devices to perform the transaction. This is the same technology that has paved the way for mobile wallets.
 
 Contactless payment methods can only be accepted by NFC-enabled devices. If you don’t already have one of these devices, you will have to buy one or get access to one on a plan. Same as with an older terminal, credit card transaction fees do apply, which may be a barrier for businesses that have been all-cash. But those who are used to accepting credit cards will find it almost the same. Merchants can simply tap instead of inserting or swiping credit cards.
 
@@ -59,8 +53,8 @@ Both credit cards and mobile wallets work with this technology. And the good new
 NFC-enabled POS devices can be explored here.
 
 
+## 5. Digital Wallet Payments
 
-## 5. Digital wallet payments
 Digital wallets lets consumers make contactless payments, linked to their debit card or credit card information, without the need for a physical payment card. It is essentially a virtual Visa or Mastercard that sits in a mobile device.
 
 Earlier in 2021, Finder.com found that roughly 150 million North Americans have used a digital wallet at one time or another as their preferred payment method. What is the reason for this large number? According to 98 million of that 150 million, it’s because they’re so unbelievably convenient.
@@ -72,8 +66,8 @@ One great thing for merchants is that, most in-person POS systems that allow con
 If you are using a POS or mPOS system that accepts contactless payments, chances are your device will also be able to accept mobile wallet payments. Most mobile payment apps now widely accept contactless payments. To check, simply contact your payment processing company to confirm.
 
 
+## 6. Peer-to-Peer Digital Payments
 
-## 6. Peer-to-peer digital payments
 Venmo, PayPal, and even Facebook Messenger are examples of peer-to-peer electronic payment solutions. These platforms allow users to search for other users and perform online transactions between themselves.
 
 Peer-to-peer electronic payment methods link to the payer and payee’s bank account to withdraw and deposit funds, providing a way for users to easily perform a funds transfer. In most cases, mobile banking apps do not have the capability to transfer money between users that don’t share the same bank account. Peer-to-peer solutions bridge this gap.
@@ -83,8 +77,8 @@ Peer-to-peer solutions are not going to be viable for most businesses, but it do
 To set up a peer-to-peer digital payments, you simply need to download whichever platform you want to use, connect your accounts, and you’re ready to transact.
 
 
+## 7. Social Media Payments
 
-## 7. Social media payments
 Small businesses doing big things through social media are harnessing the built-in mobile-commerce solutions that some social media platforms enable. Facebook, Instagram, and Pinterest business accounts all offer an in-built social shopping solution, including in-app purchases. These types of electronic payments allow for fast and convenient payment processing from your customer’s chosen financial institutions or credit card companies.
 
 Any business selling online, promoting goods through social media should be aware of the ways these platforms can accept digital payments.
@@ -96,18 +90,17 @@ As anyone with a website knows, building web traffic requires a lot of work. If 
 The best way to accept social media payments depends on the platform. Platforms like Facebook, Instagram, and Pinterest all have unique social selling features, so look into your account settings to learn how to start accepting payments.
 
 
+## 8. Biometric Authentication
 
-## 8. Biometric authentication
 Biometrics can seem a bit daunting, but most people are already using this technology to open their phones dozens of times each day. It’s essentially just a tool to verify identity, ensuring only the person who owns the bank account or digital wallet or biometric payment card can be the one to authorize transactions through it. Today, most mobile wallets are already using biometric authentication, requiring the user to scan their fingerprint before the wallet can be opened.
 
 For those that have enabled facial recognition, this too can be the authenticator to enable payments.
 
 Biometric authentication is one of the most secure ways to verify the identity of the person making the transaction. This makes fraudulent digital payments very difficult, making yet another case for why consumers are rapidly switching to mobile wallets.
 
-And biometric authentication doesn’t stop at mobile wallets. There are many new services and startups in the works around the world that are using biometrics to process payments. Schools in the UK have started using facial recognition to take digital payments in the lunch line. India has designed credit and debit cards that simultaneously are tapped and take fingerprint biometrics to ensure the “tapper” is the person who owns the card. While these digital payment services may seem futuristic, they are already seen as leading security measures in the financial industry and have started to replace the traditional card reader.
+And biometric authentication doesn’t stop at mobile wallets. There are many new services and startups in the works around the world that are using biometrics to process payments. Schools in the United Kingdom have started using facial recognition to take digital payments in the lunch line. India has designed credit and debit cards that simultaneously are tapped and take fingerprint biometrics to ensure the “tapper” is the person who owns the card. While these digital payment services may seem futuristic, they are already seen as leading security measures in the financial industry and have started to replace the traditional card reader.
 
 If you’re accepting mobile wallets, you’re already accepting biometrically authenticated payments. But if you want to really step into a totally wallet-free solution, consider looking into biometrics payment platforms and payment solutions. While these solutions aren’t as widespread as other solutions, it may be worth keeping an eye on biometric electronic payment trends.
-
 
 
 ## 9. QR Code-Based Payments
@@ -119,7 +112,6 @@ A QR-Code makes payments almost as simple as clicking a photograph. When a QR co
 Some advantages of this Payment solution are; Contactless payment option for customers who want a hands-off experience, enabled in all smartphones and does not require a specific app for customers to access, does not require a POS or payment terminal to complete transactions.
 
 
-
 ## 10. SMS Code Payments
 
 Several banks and fintechs offer a payment solution called “SMS PAY”. Through this, a payment link is sent to the customer’s mobile number that can help make the payment directly to the merchant’s bank account.
@@ -129,8 +121,7 @@ This payment mechanism is also used by e-commerce companies to enable people to 
 Having registered with a company providing this facility, merchants can send a link with details of the payment, and customers can pay using UPI (Unified Payment Interface) or any other payment mode. SMS payments are enabling citizens at the last mile to perform convenient and hassle-free cashless transactions.
 
 
-
-## 11. Gift cards
+## 11. Gift Cards
 
 Similar to prepaid cards, gift cards contain a certain amount of money, however they are mainly offered by retailers and, more recently, by major credit card providers such as Visa, Mastercard and American Express.
 
@@ -141,8 +132,8 @@ Once the sum of the gift card has been spent it can no longer be used, unlike pr
 Gift cards can help you to promote your brand and bring in new customers, especially around key retail dates and occasions.
 
 
+## 12. Cryptocurrency Payments
 
-## 12. Crypto payments
 No digital payments list would be complete without discussing cryptocurrency. Cryptocurrency has gained its foothold in the mainstream, but it is still largely unknown to many, particularly when it comes to accepting crypto as a valid form of digital payment. Cryptocurrencies have come a long way from the uncertainty, risk and illegality once associated with Bitcoin.
 
 Cryptocurrency is a decentralized currency that is not managed by any financial institution. It is run on the blockchain, a totally secure digital currency infrastructure that makes it immune to fraud and theft. That being said, smaller businesses should still approach cryptocurrencies with caution and offer these forms of alternative online payment based solely on the demands of your customer base.
