@@ -1,4 +1,4 @@
-# PAYMENT SOLUTIONS.
+## PAYMENT SOLUTIONS.
 
 A Payment Solution indicates the technical and material means made available by a Platform, to it's Users, in order to process and authorise their payment orders (by Card or by any other Payment Method) to Account Holders.
 
@@ -11,7 +11,7 @@ Payment solutions can be provided by various types of companies, including payme
 Overall, Payment solutions are essential tools for businesses of all sizes to accept and process payments from customers, and can help improve efficiency, reduce costs, and enhance the customer experience.
 
 
-## Reasons why Payment Solutions are needed.
+### Reasons why Payment Solutions are needed.
 
 Buying and selling could be done with the help of the Information and Communications Technology, which has made business across the world easier, with the advent of the Internet.
 

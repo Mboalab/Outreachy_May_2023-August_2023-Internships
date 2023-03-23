@@ -5,7 +5,7 @@ There has been some limitations in adoption and wide use of Payments Solutions b
 Hence, certain measures have to be tailored to curb these issues; that means solutions that provide complete transparency, that are economical, customizable and easy to use — designed to drive growth and provide a community presence.
 
 
-## Completely transparent.
+### Completely transparent.
 
 Payment processors would normally list fees and costs on their websites to make it easy for small businesses to select a provider that best meets their needs and budget. Unfortunately, that's not the way most major Payment Processor Organizations do it.
 
@@ -18,7 +18,7 @@ The small business market needs payment processing solutions that are easy for s
 In other words, a Payment processing solution provider breaks down fees — line by line — and shows a comparison table detailing how fees stack up against the competition.
 
 
-## Economical and easy to use.
+### Economical and easy to use.
 
 Local business owners are looking for cost-effective payment solutions to help drive business forward and make their lives easier. When it comes to payment processing technology, business owners want efficiency at a reasonable cost and don't want to read an encyclopedia on how to use it.
 
@@ -29,14 +29,14 @@ A single, comprehensive provider that can reduce complexity, simplify and consol
 Equally important are solutions to save small business owners money, allowing them to realize more profit and reinvest in their businesses. A Cash Discount Program (CDP) is a budget-friendly payment processing option allowing owners to pay a low, flat monthly subscription for unlimited credit card processing that eliminates up to 100% of monthly processing fees, pain points of variable fees and inconsistency.
 
 
-## Drive growth.
+### Drive growth.
 
 In today's digital-first environment, it is essential for small businesses to embed payment processing technology into operations to stay relevant and competitive.
 
 This technology, which provides the ability to offer multiple payment acceptance options, including mobile payments to convenience-minded consumers, is vital for every small business. By providing a range of payment options, small business owners are able to attract more customers and significantly increase sales volume.
 
 
-## Provide a community presence.
+### Provide a community presence.
 
 When it comes to sales and service of payment solutions, most companies don't have boots on the ground in small and rural towns. Instead, Payment solution providers rely on remote sales and support to service local customers. The fact is, these locals need high levels of service and engagement just as much as businesses located in major urban regions.
 
@@ -44,7 +44,7 @@ To better serve businesses in local markets, payment processing providers should
 
 Access to resources is vital for small businesses in small towns and rural areas to succeed. Supporting and elevating small businesses with these services and technology helps stimulate local economies and creates needed employment opportunities.
 
-## Face-to-Face Daily Transactions.
+### Face-to-Face Daily Transactions.
 
 A key constraint for increasing digital transaction volumes in rural areas, and why many local businesses refuse to adopt these Payment Solutions is because, local business owners who receive payments digitally find it difficult to use electronic money for their daily transactions. To use their hard-earned income, they must often cash out at their nearest agent and pay the associated fees.
 
@@ -56,7 +56,7 @@ In solving this issue, the value proposition for smallholders to receive digital
 
 
 
-### References:
-- [https://www.cgap.org/blog/building-rural-digital-ecosystems-one-small-payment-time] (https://www.cgap.org/blog/building-rural-digital-ecosystems-one-small-payment-time)
+**References:**
+- https://www.cgap.org/blog/building-rural-digital-ecosystems-one-small-payment-time
 
-- [https://www.entrepreneur.com/growing-a-business/why-payment-processing-solutions-in-rural-small-town/430055] (https://www.entrepreneur.com/growing-a-business/why-payment-processing-solutions-in-rural-small-town/430055)
+- https://www.entrepreneur.com/growing-a-business/why-payment-processing-solutions-in-rural-small-town/430055
