@@ -7,9 +7,9 @@ Various Payment solutions have risen up and become quite popular in the past yea
 
 This Payment solution is in some way similar to the project that we at MboaLab are working on, especially because of the "Feature phones(mobile phones with fixed features)", which can be viewed as a miniaturised hardware device that has one specific use.
 
-Feature phone users can conduct a variety of transactions based on four technological alternatives via UPI 123PAY; calling an IVR (interactive voice response) number, app functionality in feature phones, a missed call-based approach, and proximity sound-based payments.
+Feature phone users can conduct a variety of transactions based on four technological alternatives via UPI 123PAY; calling an IVR (Interactive Voice Response) number, app functionality in feature phones, a missed-call-based approach, and proximity sound-based payments.
 
-The Reserve Bank of India (RBI) recently launched an interactive IVR (Interactive Voice Response)-based Unified Payment Interface (UPI) service called ‘UPI123pay’, which can be used even by those who do not have a smartphone or an active internet connection.
+The Reserve Bank of India (RBI) recently launched an IVR (Interactive Voice Response)-based Unified Payment Interface (UPI) service called "UPI 123pay", which can be used even by those who do not have a smartphone or an active internet connection.
 
 Users of this service simply need to give a missed call to the pre-defined IVR number displayed on the merchant’s counter and need to enter their UPI PIN when asked to. UPI123Pay is a giant leap forward towards mass inclusion and extension of digital payments in a secure manner to non-smartphone users. It democratises digital banking and removes dependence on the internet. Anyone, even with a simple feature phone, will now get access to digital banking. The proximity sound-based payments feature in the UPI123Pay app uses high-frequency ultrasound waves for data transfer between mobile phones thus it does not require an internet connection. 
 
