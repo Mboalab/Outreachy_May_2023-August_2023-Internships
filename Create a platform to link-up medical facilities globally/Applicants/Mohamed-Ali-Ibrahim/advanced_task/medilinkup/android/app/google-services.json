@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1027140559738",
+    "project_id": "medilinkup-flutter",
+    "storage_bucket": "medilinkup-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027140559738:android:3b8d3df6b1e42cc906acc3",
+        "android_client_info": {
+          "package_name": "com.example.medilinkup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027140559738-sutdr4fg6pkfdfjdnvoqifkuudevcaau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ZeKy69PWfMaBZu1MXF6vHtwkw4ZpfZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027140559738-sutdr4fg6pkfdfjdnvoqifkuudevcaau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
