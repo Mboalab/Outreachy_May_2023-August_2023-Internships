@@ -10,7 +10,7 @@ I am really excited to be a part of this.
 
 I can be reached through any of the following platforms:
 
-**E-Mail:** *danielolatunji20@outlook.com*
+*E-Mail: danielolatunji20@outlook.com*
 
 [LinkedIn](https://www.linkedin.com/in/daniel-eniola-olatunji/)
 
