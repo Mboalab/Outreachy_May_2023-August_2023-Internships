@@ -28,5 +28,5 @@ I would love to **connect** with you! Kindly reach out to me on
 - [Github](https://github.com/psalmuelle)
 - [Twitter](https://twitter.com/erinle_sam)
 - [Medium](https://medium.com/@erinle-sam)
-
+- [Email](mailto:psalmuelle1@gmail.com)
 Thank you!
