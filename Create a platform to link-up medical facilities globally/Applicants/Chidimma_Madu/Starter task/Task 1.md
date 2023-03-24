@@ -1,7 +1,7 @@
 # Hospital Data Collection Tool
 
 ## Overview
-I use Google Forms as the format for the data collection tool. This tool is designed to collect information about hospitals, including their name, location, services, and facilities available. The tool can be used remotely or on-site, and it is intended to provide a comprehensive overview of the hospital to aid in decision-making.
+I use Google Forms as the tool for the data collection. This tool is designed to collect information about hospitals, including their name, location, services, and facilities available. The tool can be used remotely or on-site, and it is intended to provide a comprehensive overview of the hospital to aid in decision-making.
 
 **Fields to include:**
 
