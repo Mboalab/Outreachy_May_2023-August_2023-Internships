@@ -6,11 +6,15 @@ This is a REST API application for global hospitals with complete CRUD implement
 
 
 > HOST: https://global-hospitals.onrender.com
+
 > To access a route add it to the end of the host then go to the link.
+
 > Example: To get all hospitals:
 `https://global-hospitals.onrender.com/api/v1/hospitals`
+##
+
 | Method | Route | Purpose |
-| -- | ----- | ------- |
+| ---- | ----- | ------- |
 | GET | /api/v1/hospitals | returns a list of all hospitals |
 | GET | /api/v1/hospitals/{id} | returns a hospital with the specified id(replace `{id}` with id number |
 | GET | /api/v1/hospitals/names/{name} | returns a hospital/list of hospitals that contain the name specified |
