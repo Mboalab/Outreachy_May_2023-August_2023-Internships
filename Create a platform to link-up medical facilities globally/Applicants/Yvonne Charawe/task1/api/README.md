@@ -10,7 +10,7 @@ This is a REST API application for global hospitals with complete CRUD implement
 > To access a route add it to the end of the host then go to the link.
 
 > Example: To get all hospitals:
-`https://global-hospitals.onrender.com/api/v1/hospitals`
+https://global-hospitals.onrender.com/api/v1/hospitals
 ##
 
 | Method | Route | Purpose |
@@ -30,7 +30,7 @@ This is a REST API application for global hospitals with complete CRUD implement
 ---
 
 ## Requirements
-- `ubuntu` or any os with `Go`
+- `ubuntu` or any Operating System with `Go`
 
 ## Setup Instructions
 - After cloning the project:
