@@ -1,4 +1,4 @@
-<h1> Hello there! I'm Nikhila K S <img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" 
+<h1> 👩🏽‍💻Hello there! I'm Nikhila K S <img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" 
          alt="Waving hand animated gif"
          height="45"
          width="45" /></h1>
@@ -9,7 +9,7 @@ If I were to describe myself, I'd say that I am an enthusiastic individual, alwa
 When I came across the "Improve-a-digital-Stethoscope-app" project, I knew it was something that aligned perfectly with my skillset and for a good cause. I feel privileged to have found this amazing MboaLab community through Outreachy and cannot wait to collaborate and learn from the brightest minds in this field. I am looking forward to discussing my ideas and participating in the advanced tasks with the community.<br>
 ## 📱 Reach out to me on
 [![General badge](	https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/nikhila_ks_)
-[![General badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](nikhila122btcse21@igdtuw.ac.in)
+[![General badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikhila122btcse21@igdtuw.ac.in)
 [![General badge](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/know-nikhila-k-s/)
 [![General badge](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Nikhila-KS)
 
@@ -18,5 +18,8 @@ When I came across the "Improve-a-digital-Stethoscope-app" project, I knew it wa
 ### Starter Task-
 Task 0: Create a Github account- ✅completed<br>
 Task 1: Add file of yourname.md with description of about yourself - ✅completed<br>
+[Link for starter task](https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/blob/main/Improve%20a%20digital%20Stethoscope%20app/Tasks/Starter%20tasks/Applicants%20Contribution/Nikhila%20K%20S.md)
 ### Advance Task-
-Task : Implementation of Record audio and recorded audio player - ✅completed
+Task : Implementation of Record audio and recorded audio player - ✅completed<br>
+Task : How the sound file can be trained using simplest algorithm of ML ~ Research done by Nikhila K S - ✅completed<br>
+ [Link for advance task](https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/tree/main/Improve%20a%20digital%20Stethoscope%20app/Tasks/Advanced%20%20tasks/Applicants%20Contribution/Nikhila%20K%20S)
