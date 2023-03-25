@@ -3,7 +3,7 @@
 @host = localhost:5050
 
 // Create Hospital (ON EMAIL VERIFICATION ONLY!!)
-POST http://{{host}}/api/hospitals/new HTTP/1.1
+POST http://{{host}}/api/v1/hospitals/new HTTP/1.1
 content-type: application/json
     
 {
@@ -19,37 +19,37 @@ content-type: application/json
 ###
 
 // Get Hospital By ID
-GET http://{{host}}/api/hospitals/201 HTTP/1.1
+GET http://{{host}}/api/v1/hospitals/201 HTTP/1.1
 content-type: application/json
 
 ###
 
 //Get Hospital By Name
-GET http://{{host}}/api/hospitals/names/international HTTP/1.1
+GET http://{{host}}/api/v1/hospitals/names/international HTTP/1.1
 content-type: application/json
 
 ###
 
 //Get Hospital By Country
-GET http://{{host}}/api/hospitals/countries/a HTTP/1.1
+GET http://{{host}}/api/v1/hospitals/countries/a HTTP/1.1
 content-type: application/json
 
 ###
 
 //Get Hospital By Service
-GET http://{{host}}/api/hospitals/services/oncology HTTP/1.1
+GET http://{{host}}/api/v1/hospitals/services/oncology HTTP/1.1
 content-type: application/json
 
 ###
 
 // Get All Hospitals
-GET http://{{host}}/api/hospitals HTTP/1.1
+GET http://{{host}}/api/v1/hospitals HTTP/1.1
 content-type: application/json
 
 ###
 
 // Update Hospital (ON EMAIL VERIFICATION ONLY!!)
-PUT http://{{host}}/api/hospitals/201 HTTP/1.1
+PUT http://{{host}}/api/v1/hospitals/201 HTTP/1.1
 content-type: application/json
 
 {
@@ -65,7 +65,7 @@ content-type: application/json
 ###
 
 // Delete Hospital  (ADMIN ONLY!!)
-DELETE http://{{host}}/api/hospitals/249 HTTP/1.1
+DELETE http://{{host}}/api/v1/hospitals/249 HTTP/1.1
 content-type: application/json
 
 ###
