@@ -11,7 +11,9 @@
   + Insurance
 
 ## To view the list of hospitals click on the link below:
+> https://global-hospitals.onrender.com/api/hospitals
 
+> **NOTE: Build, Integration & Setup of this api link and all other routes is in [task1](../task1)**
 ## To create & view the hospital data relations :
 
 **(On terminal)**
