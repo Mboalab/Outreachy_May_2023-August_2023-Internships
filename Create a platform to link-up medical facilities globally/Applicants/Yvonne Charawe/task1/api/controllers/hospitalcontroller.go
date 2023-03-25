@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"golang-crud-rest-api/database"
 	"golang-crud-rest-api/entities"
+	"golang-crud-rest-api/utils"
 	"net/http"
 
 	"github.com/gorilla/mux"
@@ -13,10 +14,21 @@ import (
 //AddHospital adds a hospital to the database (CREATE)
 func AddHospital(w http.ResponseWriter, r *http.Request) {
 	var hospital entities.Hospital;
-	json.NewDecoder(r.Body).Decode(&hospital)
-	database.Instance.Create(&hospital);
-	w.Header().Set("Content-Type", "application/json");
-	json.NewEncoder(w).Encode(hospital);
+	json.NewDecoder(r.Body).Decode(&hospital);
+	valid, err := utils.EmailIsValid(hospital.Email);
+	if valid {
+		if utils.EmailAlreadyExists(hospital.Email) || checkIfHospitalExistsByName(hospital.Name){
+			json.NewEncoder(w).Encode("Hospital Already Exists!");
+			return
+		}
+		database.Instance.Create(&hospital);
+		w.Header().Set("Content-Type", "application/json");
+		json.NewEncoder(w).Encode(hospital);
+	}
+	if err != nil {
+		json.NewEncoder(w).Encode(err.Error());
+	}
+	
 }
 
 
@@ -24,14 +36,20 @@ func AddHospital(w http.ResponseWriter, r *http.Request) {
 func checkIfHospitalExists(hospitalId string) bool {
 	var hospital entities.Hospital;
 	database.Instance.First(&hospital, hospitalId);
-	return hospital.ID != 0;
+	return hospital.ID == 0;
 }
 
+//checkIfHospitalExistsByName returns true if a hospital with the specified name exists in the database
+func checkIfHospitalExistsByName(hospitalName string) bool {
+	var hospital entities.Hospital;
+	database.Instance.First(&hospital, hospitalName);
+	return hospital.ID == 0;
+}
 
 //GetHospitalById returns a hospital in the database with the specified id (READ)
 func GetHospitalById(w http.ResponseWriter, r *http.Request) {
 	hospitalId := mux.Vars(r)["id"];
-	if !checkIfHospitalExists(hospitalId) {
+	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
 		return
 	}
@@ -97,27 +115,38 @@ func GetAllHospitals(w http.ResponseWriter, r *http.Request) {
 //UpdateHospital updates a hospital in the database (UPDATE)
 func UpdateHospital(w http.ResponseWriter, r *http.Request) {
 	hospitalId := mux.Vars(r)["id"];
-	if !checkIfHospitalExists(hospitalId) {
+	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
 		return
 	}
 	var hospital entities.Hospital;
 	database.Instance.First(&hospital, hospitalId);
 	json.NewDecoder(r.Body).Decode(&hospital);
-	database.Instance.Save(&hospital);
-	w.Header().Set("Content-Type", "application/json");
-	json.NewEncoder(w).Encode(hospital);
+	valid, err := utils.EmailIsValid(hospital.Email);
+	if valid {
+		database.Instance.Save(&hospital);
+		w.Header().Set("Content-Type", "application/json");
+		json.NewEncoder(w).Encode(hospital);
+	}
+	if err != nil {
+		json.NewEncoder(w).Encode(err.Error());
+	}
+	
 }
 
 //DeleteHospital deletes a hospital in the database (DELETE)
 func DeleteHospital(w http.ResponseWriter, r *http.Request) {
 	hospitalId := mux.Vars(r)["id"];
-	if !checkIfHospitalExists(hospitalId) {
+	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
 		return
 	}
 	var hospital entities.Hospital;
 	database.Instance.First(&hospital, hospitalId);
+	if !utils.IsAuthorized(hospital.Email) {
+		json.NewEncoder(w).Encode("Unauthorized!");
+		return
+	}
 	database.Instance.Delete(&hospital);
 	w.Header().Set("Content-Type", "application/json");
 	json.NewEncoder(w).Encode("Hospital Deleted Successfully!");

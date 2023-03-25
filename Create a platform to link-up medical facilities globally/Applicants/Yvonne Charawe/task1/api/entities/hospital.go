@@ -7,8 +7,8 @@ type Hospital struct {
 	Name string `json:"name"`
 	Country string `json:"country"`
 	Region string `json:"region"`
-	OperatingHours string `json:"operatingHours"`
-	PhoneNumber string `json:"phoneNumber"`
+	OperatingHours string `json:"operating hours"`
+	PhoneNumber string `json:"phone number"`
 	Services string `json:"services"`
 	Website string `json:"website"`
 }
