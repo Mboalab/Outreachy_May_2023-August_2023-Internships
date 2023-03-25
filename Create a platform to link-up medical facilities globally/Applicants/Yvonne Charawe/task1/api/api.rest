@@ -1,4 +1,4 @@
-@host = localhost:8080
+@host = localhost:5050
 
 // Create Hospital
 # POST http://{{host}}/api/hospitals/new HTTP/1.1
@@ -7,14 +7,35 @@
 # {
 #     "email":info@testhospital.com,
 #     "name": "test-hospital",
-#     "description": "random-description",
-#     "price": 100.00
+#     "country": "test-nation",
+#     "region": "test-region",
+#     "operating hours": "test-hours",
+#     "services": "Accident and emergency (A&E),Burns Unit,Cardiology,General Surgery",
+#     "website": "test-hospital-website.com"
 # }
 
 ###
 
 // Get Hospital By ID
-GET http://{{host}}/api/hospitals/1 HTTP/1.1
+GET http://{{host}}/api/hospitals/201 HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Name
+GET http://{{host}}/api/hospitals/names/international HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Country
+GET http://{{host}}/api/hospitals/countries/a HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Service
+GET http://{{host}}/api/hospitals/services/oncology HTTP/1.1
 content-type: application/json
 
 ###
@@ -26,17 +47,21 @@ content-type: application/json
 ###
 
 // Update Hospital
-# PUT http://{{host}}/api/hospitals/1 HTTP/1.1
+# PUT http://{{host}}/api/hospitals/201 HTTP/1.1
 # content-type: application/json
 
 # {
-#     "name": "updated-product",
-#     "description": "random-description-updated",
-#     "price": 100.00
+#     "email":info@testhospital.com,
+#     "name": "updated-test-hospital",
+#     "country": "test-nation",
+#     "region": "test-region",
+#     "operating hours": "test-hours",
+#     "services": "Accident and emergency (A&E),Burns Unit,Cardiology,General Surgery",
+#     "website": "test-hospital-website.com"
 # }
 
 ###
 
 // Delete Hospital
-# DELETE http://{{host}}/api/hospitals/51 HTTP/1.1
+# DELETE http://{{host}}/api/hospitals/250 HTTP/1.1
 # content-type: application/json
