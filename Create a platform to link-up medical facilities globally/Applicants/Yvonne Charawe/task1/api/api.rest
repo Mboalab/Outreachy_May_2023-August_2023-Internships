@@ -1,0 +1,42 @@
+@host = localhost:8080
+
+// Create Hospital
+# POST http://{{host}}/api/hospitals/new HTTP/1.1
+# content-type: application/json
+    
+# {
+#     "email":info@testhospital.com,
+#     "name": "test-hospital",
+#     "description": "random-description",
+#     "price": 100.00
+# }
+
+###
+
+// Get Hospital By ID
+GET http://{{host}}/api/hospitals/1 HTTP/1.1
+content-type: application/json
+
+###
+
+// Get All Hospitals
+GET http://{{host}}/api/hospitals HTTP/1.1
+content-type: application/json
+
+###
+
+// Update Hospital
+# PUT http://{{host}}/api/hospitals/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "updated-product",
+#     "description": "random-description-updated",
+#     "price": 100.00
+# }
+
+###
+
+// Delete Hospital
+# DELETE http://{{host}}/api/hospitals/51 HTTP/1.1
+# content-type: application/json

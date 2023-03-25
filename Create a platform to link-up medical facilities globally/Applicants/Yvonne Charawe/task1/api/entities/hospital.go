@@ -12,3 +12,10 @@ type Hospital struct {
 	Services string `json:"services"`
 	Website string `json:"website"`
 }
+
+//Title to show list of hospitals
+
+type HospitalList struct {
+	Title string `json:"title"`
+	Hospitals []Hospital `json:"hospitals"`
+}

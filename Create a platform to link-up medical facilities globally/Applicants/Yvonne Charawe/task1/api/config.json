@@ -1,4 +1,4 @@
 {
     "port": 8080,
-    "connection string": "server=sql.freedb.tech;uid=freedb_yvonne;pwd='XX4uyTr!xCH9vvf';database:freedb_Mboalab"
+    "connection string": "freedb_yvonne:XX4uyTr!xCH9vvf@tcp(sql.freedb.tech:3306)/freedb_Mboalab?charset=utf8&parseTime=True&loc=Local"
 }
