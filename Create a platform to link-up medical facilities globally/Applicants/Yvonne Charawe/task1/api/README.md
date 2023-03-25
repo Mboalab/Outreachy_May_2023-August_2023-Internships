@@ -46,7 +46,7 @@ go run .
 # Technologies Used
 
 - Go (golang)
-- Gorilla:Mux    _for routing_
+- Gorilla(mux)   _for routing_
 - mysql          _database_
 - GORM           _ORM to access the database_
 - Viper          _for loading configurations_
