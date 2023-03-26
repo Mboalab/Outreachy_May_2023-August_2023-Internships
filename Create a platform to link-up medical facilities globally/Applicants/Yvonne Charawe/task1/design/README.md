@@ -9,7 +9,7 @@
 ## Prototype:
 
 
-[![](prototype.png)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=14-1132&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2)
+[![](screenshot.png)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=14-1132&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2)
 
 
 ## Technology Used
