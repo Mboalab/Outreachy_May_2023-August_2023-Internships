@@ -9,7 +9,7 @@
 ## Prototype:
 
 
-[![](https://drive.google.com/file/d/1aUrUewvj-jz_aCG4pRkVOr17DsB_gbsV/view?usp=share_link)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=14-1132&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2
+[![](https://drive.google.com/file/d/1aUrUewvj-jz_aCG4pRkVOr17DsB_gbsV/view?usp=share_link)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=14-1132&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2)
 
 
 ## Technology Used
