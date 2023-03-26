@@ -8,7 +8,8 @@
 
 ## Prototype:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIurlVopAWYSmFCEgCU82Zd%2FData-Collection-Tool%3Fnode-id%3D14-1132%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A2" allowfullscreen></iframe>
+
+[![](https://drive.google.com/file/d/1aUrUewvj-jz_aCG4pRkVOr17DsB_gbsV/view?usp=share_link)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=14-1132&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2
 
 
 ## Technology Used
