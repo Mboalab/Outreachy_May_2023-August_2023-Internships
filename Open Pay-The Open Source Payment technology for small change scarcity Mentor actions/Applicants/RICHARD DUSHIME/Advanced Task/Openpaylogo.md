@@ -20,9 +20,9 @@ Here is a List
 7. 
 ![Logo 7](Logo/New%20Logo%207.png)
 8. 
-![Logo 8](Logo/New%20Logo%2010.png)
+![Logo 8](Logo/New%20Logo%208.png)
 9. 
-![Logo 9](Logo/New%20Logo%2012.png)
+![Logo 9](Logo/New%20Logo%209.png)
 10. 
 ![Logo 10](Logo/Logo%206.png)
 
@@ -32,5 +32,3 @@ Here is a List
 Your feedback will be highly appreciated, and i will consider your input in the final decision-making process. Thank you for your help in advance.
 
 Best regards
-
-Fellow outreachy Applicant.
