@@ -28,4 +28,3 @@ The 2 choices colors can be used in various combinations to create a visually ap
 
 > **Note** : These colors will be consistent across all marketing and communication materials, including the logo, website, mobile app, and any other promotional materials. They will reflect the project's personality and values, such as trust, innovation, and fairness, while also being visually appealing and memorable.
 
-    --- Logo Designing In Progress ---
