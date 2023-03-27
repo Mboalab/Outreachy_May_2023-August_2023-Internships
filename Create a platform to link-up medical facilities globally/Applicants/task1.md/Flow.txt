@@ -1,0 +1,48 @@
+sheetHospital Name:
+Location:
+Contact Person:
+Contact Person Email:
+Contact Person Phone Number:
+
+Facilities Available:
+
+Emergency Room
+Operating Room
+ICU
+Neonatal ICU
+Maternity Ward
+Laboratory Services
+Pharmacy Services
+Radiology Services
+Rehabilitation Services
+Outpatient Clinic
+Services Available:
+
+Anesthesia
+Cardiology
+Dermatology
+Endocrinology
+Gastroenterology
+Hematology
+Neurology
+Obstetrics and Gynecology
+Oncology
+Ophthalmology
+Orthopedics
+Pediatrics
+Psychiatry
+Radiology
+Surgery
+Urology
+Other Relevant Information:
+
+Number of Beds:
+Number of Doctors:
+Number of Nurses:
+Availability of 24/7 services:
+Insurance accepted:
+Languages spoken:
+Accreditation/Certification:
+Please provide a link to your hospital's website:
+
+By filling out and submitting this form, you agree to allow our system to list your hospital's information on our platform.
