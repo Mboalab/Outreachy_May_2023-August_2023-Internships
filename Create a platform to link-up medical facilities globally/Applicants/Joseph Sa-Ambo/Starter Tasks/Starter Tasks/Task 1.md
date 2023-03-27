@@ -78,4 +78,4 @@ A suggestion/feedback section where respondents can give some feedback.
 
 **Conclusion**
 
-In conclusion, the aim of the task was achieved in successfully creating a tool for the collection of data from health facilities using Google Forms. The tool was proven effective in collecting important health data that will aid in the creation of a suitable platform that links medical facilities globally and make it easier for people to access the medical services they need. 
+In conclusion, the aim of the task was achieved in successfully creating a tool for the collection of data from health facilities using Google Forms. The tool was proven effective in collecting important health data that will aid in the creation of a suitable platform that links medical facilities globally and make it easier for people to access the medical services they need.  

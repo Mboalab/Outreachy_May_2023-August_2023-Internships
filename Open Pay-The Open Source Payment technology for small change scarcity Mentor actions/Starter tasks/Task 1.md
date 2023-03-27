@@ -18,5 +18,6 @@ It is also a great opportunity to make your own participation and experience a s
 - Create and design text content based on collected informations. call for new contributors. 
 
 
+
 ## Attributed Mentor:
 Attributed mentor to get in touch with for this task is **Stephane Fadanka**
