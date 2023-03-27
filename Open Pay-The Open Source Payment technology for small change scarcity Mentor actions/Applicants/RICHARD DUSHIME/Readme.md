@@ -1,4 +1,5 @@
 # Open Pay: The Open Source Payment technology for small change scarcity
+##### "Project under Mboalab Community"
 <div id="top" align="center">
 
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
@@ -52,6 +53,13 @@ If comercial solution to the problem exist, through smart payment methods and to
 
 Our project aim to solve the issue of small cash scarcity by bridging the gap between trust, inclusion and technological performance. We want to develop an Open Source technology combining the used of a mobile app, couple with a miniaturised hardware system to transform any smart device (smart phone, tablet etc..) into payment tool.  
 
+## Vision Statement:
+Open Pay is an open source payment technology that aims to solve the issue of small cash scarcity by bridging the gap between trust, inclusion and technological performance. The project will develop a mobile app and a miniaturised hardware system that can be used to transform any smart device into a payment tool. This will allow people to make payments without having to carry cash, which will benefit both businesses and consumers.
+
+The project's vision is to create a world where everyone has access to safe, secure, and convenient payment methods. By making it easy for people to make payments without cash, Open Pay can help to reduce poverty, promote financial inclusion, and boost economic growth. 
+
+>**_Our main goal is to solve the problem of small cash scarcity by providing an open-source payment technology that is accessible to everyone._**
+
 ### Skills Required
 - [Open source](https://app.jogl.io/search/projects?refinementList[skills][0]=Open%20source)
 - [Engineer software & hardware](https://app.jogl.io/search/projects?refinementList[skills][0]=Engineer%20software%20&%20hardware)
@@ -60,11 +68,6 @@ Our project aim to solve the issue of small cash scarcity by bridging the gap be
 - [Diy](https://app.jogl.io/search/projects?refinementList[skills][0]=Diy)
 - [Project management](https://app.jogl.io/search/projects?refinementList[skills][0]=Project%20management%20skill)
 
-## Vision Statement:
-
-Loading . 
-
->**_Our main goal is to solve the problem of small cash scarcity by providing an open-source payment technology that is accessible to everyone._**
 
 ## How to contribute to the project?
 you can contribute to this project in Differrent ways: 
