@@ -1,5 +1,4 @@
 # Open Pay: The Open Source Payment technology for small change scarcity
-
 ##### "Project under Mboalab Community"
 
 <div id="top" align="center">
@@ -21,6 +20,7 @@
   </div>
   
 # 🌱 🌱  Mboalab 🌱 🌱
+
 
 Mboalab is an open and collaborative space located in the village of Mefou-Assi, Yaounde, Cameroon. The aim of Mboalab is to catalyse sustainable development and improve people's living conditions through open science. We bring together researchers, scholars, educationists, policy makers and the general public to discuss, conceive and implement projects responding to the health, economic and social needs of the community, such as the coronavirus pandemic. Our approach focuses on the integration of local knowledge by centering the local community especially women.
 
@@ -66,7 +66,6 @@ The project's vision is to create a world where everyone has access to safe, sec
 > **_Our main goal is to solve the problem of small cash scarcity by providing an open-source payment technology that is accessible to everyone._**
 
 ### Skills Required
-
 - [Open source](https://app.jogl.io/search/projects?refinementList[skills][0]=Open%20source)
 - [Engineer software & hardware](https://app.jogl.io/search/projects?refinementList[skills][0]=Engineer%20software%20&%20hardware)
 - [Project documentation](https://app.jogl.io/search/projects?refinementList[skills][0]=Project%20documentation)
@@ -91,3 +90,4 @@ Check the Contributions Guidelines and the list of details via [Open Pay Technic
 ##  Mentor
 
 Attributed mentor to get in touch with for this Project is **Stephane Fadanka**
+

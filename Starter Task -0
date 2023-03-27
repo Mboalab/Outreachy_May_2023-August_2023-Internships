@@ -1,0 +1,22 @@
+#Task 0 Completed
+
+#Objective
+In order to link up hospitals, it is essential to be aware of which hospital is operative, in your area and globally. Hospitals in this context refer to medical facilities in general.
+The hospitals should not be specialized such as eye, or ear but rather general services medical facilities where the sub-units co-exist.
+
+#Methodology
+I research list of hospitals and mainly concentrated on hospitals in africa and was able to compile a list of private, public and teaching hospitals, after which I linked up their website and arranged in Excel file, with each of their locations filled.
+
+I picked out hospitals based on the diversities of the services they offered and their overall presence on internet, which I believe would facilitate the project we are working on (I noted some hospitals don't have websites, even though they are popular)
+
+The specialties of the hospitals traverse across general medicine, cardiology, gynaecology, pediatrics, general surgery, dentistry, opthalmology...
+
+#Results
+The result is accessible for use through the link below and is open to updates as I noticed hospitals do update or change their websites as well as location or even open up a new branch.
+https://docs.google.com/spreadsheets/d/1lrU9nVHPJnKBtxB9PC0yL0XFs3C2LSQr/edit?usp=share_link&ouid=118316497684481760418&rtpof=true&sd=true
+
+I have completed this task as one of my contributions to Outreachy May23 application under Mboalab Community.
+
+#References
+1. Scimagoir Institution Ranking; https://www.scimagoir.com/rankings.php?country=Africa&sector=Health
+2. Ranking Web of Hospitals; https://hospitals.webometrics.info/en/Africa
