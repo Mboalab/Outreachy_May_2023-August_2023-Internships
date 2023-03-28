@@ -13,6 +13,7 @@
   + PULL REQUEST: 
   
 + Task 1 (Data Collection) :
-  + 
+  + [task1](task1/)
+  +PULL REQUEST:
   
 ## Advanced Task (Link-up Hospital Application)
