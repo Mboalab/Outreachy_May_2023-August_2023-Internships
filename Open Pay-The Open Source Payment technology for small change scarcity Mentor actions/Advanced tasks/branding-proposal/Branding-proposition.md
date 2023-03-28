@@ -78,8 +78,17 @@ Came up with some brand colors which was previously used in the creation of the 
  Below is the link to the Openpay Brand colors figma file 
 [You can view the figma files here](https://www.figma.com/file/oXqI6P5mS6NWWbSq2R6va6/Open-pay-logo-proposition?node-id=0%3A1&t=vFr46V9w0wUOwIlY-1)
 
+***Branding application***
 
+ ![demo-mockup](demo1.png)
 
+ ![demo-mockup](demo2.png)
+
+ ![demo-mockup](demo3.png)
+
+ ![demo-mockup](demo4.png)
+
+  ![demo-mockup](demo5.png)
 
 
 
