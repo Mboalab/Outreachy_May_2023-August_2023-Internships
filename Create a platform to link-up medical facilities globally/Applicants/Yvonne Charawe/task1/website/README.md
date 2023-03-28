@@ -1,4 +1,4 @@
-#Data Collection Website
+# Data Collection Website
 
 ##### Project Description
 This is a website that enables hospitals to fill in their details and register to the Mboa Platform
