@@ -51,7 +51,7 @@ go run .
 - GORM           _ORM to access the database_
 - Viper          _for loading configurations_
 - Rest Client    _for testing endpoints_
-- spark
+- Render	 _for hosting_
 
 
 
