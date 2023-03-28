@@ -1,15 +1,33 @@
 1. **Research on already existing similar solutions:**
+ 
+ After doing research on different open source payment Technologies i came up with the most common strength and weaknesses of this technologies.
 
 ***Strengths***
+    
+    1. Transparency: Open source payment technology is transparent because the source code is available for anyone to inspect and audit. This increases the trust of users and helps ensure that the payment system is secure.
+
+    2. Flexibility: Open source payment technology can be customized and modified to meet the specific needs of users. Developers can build on top of existing open source payment systems to create new features or functionalities.
+
+    3.Security: Open source payment technology is often more secure than closed source alternatives because the code is available for anyone to review and identify vulnerabilities. This can help prevent security breaches and reduce the risk of fraud.
+
+    4. Cost-effective: Open source payment technology is often free or low-cost, which makes it accessible to a wider range of users. This can help reduce transaction fees and increase the affordability of payment systems.
 
 
 
 
 
-***Weaknesses***.
+***Weaknesses***
+
+    1. Complexity: Open source payment technology can be complex to set up and use, especially for non-technical users. This can lead to a steep learning curve and may require additional resources to ensure proper implementation.
+
+    2. Lack of support: Some open source payment technology may not have dedicated support teams, which can make it difficult to resolve issues or receive assistance when needed.
+
+    3. Limited adoption: Open source payment technology may not be as widely adopted as closed source alternatives, which can limit the number of merchants and users who accept it as a payment method.
+
+    4. Regulatory challenges: Open source payment technology may face regulatory challenges in some jurisdictions, especially if it is perceived as a threat to traditional financial institutions. This can create legal hurdles and limit its potential adoption.
 
 
-
+our main goal is to focus on this weaknesses and see how we can improve on them in every part or phase of our project implementation especially in the long term .
 
 
 2. **Propose a genuine brand name:** 
