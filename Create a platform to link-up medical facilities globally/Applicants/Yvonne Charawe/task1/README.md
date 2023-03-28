@@ -10,3 +10,5 @@
 - All files and links on the design are in the [design folder](design/)
 
 ## WEBSITE
+- This is the data collection website where hospitals can register and update their details.
+- All files and links on the website are in the [website folder](website/)
