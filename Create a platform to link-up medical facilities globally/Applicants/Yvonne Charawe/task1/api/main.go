@@ -19,7 +19,9 @@ func main() {
 	router := mux.NewRouter().StrictSlash(true);
 	//Register Routes
 	HospitalRoutes(router);
+	//Allow CORS
+	handler := cors.Default().Handler(router);
 	// Start the server
 	fmt.Printf("Starting Server on port %s", AppConfig.Port);
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", AppConfig.Port), router));
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", AppConfig.Port), handler));
 }
