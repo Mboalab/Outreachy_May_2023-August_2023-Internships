@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"github.com/gorilla/mux"
+	"github.com/rs/cors"
 )
 
 func main() {
