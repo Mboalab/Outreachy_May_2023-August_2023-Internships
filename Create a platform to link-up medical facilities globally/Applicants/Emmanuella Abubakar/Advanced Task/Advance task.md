@@ -29,9 +29,9 @@ To carry out this task, i will follow these steps:
 | S/N | Milestone | Timeline |
 | -- | -- | -- |
 | 1 | UX -  Research plan, User interviews, Interview note | 03/26/2023 - 03/26/2023 |
-| 1 | UX -  Empathy map, Painpoints, User persona | 03/27/2023 - 03/27/2023 |
-| 2 | UX -  Idea generation, Idea prioritization, Competitive analysis, User story | 03/28/2023 - 03/28/2023 |
-| 3 | UI - Select 4 main screens, Mini-styleguide, Hifi designs | 03/28/2023 - 03/29/2023 |
-| 4 | Development of mobile app screens | 03/29/2023 - 03/30/2023 |
-| 5 | User testing and iteration | 03/31/2023 - 04/01/2023 |
-| 5 | Documentation | 04/02/2023 - 04/02/2023 |
+| 2 | UX -  Empathy map, Painpoints, User persona | 03/27/2023 - 03/27/2023 |
+| 3 | UX -  User persona, Painpoints, Idea generation, User story | 03/28/2023 - 03/28/2023 |
+| 4 | UI - Mini-styleguide, Moodboard, Hifi designs | 03/29/2023 - 03/30/2023 |
+| 5 | Development of mobile app screens | 03/31/2023 - 04/01/2023 |
+| 6 | User testing and iteration | 04/02/2023 - 04/02/2023 |
+| 7 | Documentation | 04/03/2023 - 04/03/2023 |
