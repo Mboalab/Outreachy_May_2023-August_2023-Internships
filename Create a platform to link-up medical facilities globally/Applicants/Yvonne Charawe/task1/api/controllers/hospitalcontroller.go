@@ -13,6 +13,7 @@ import (
 
 //AddHospital adds a hospital to the database (CREATE)
 func AddHospital(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	var hospital entities.Hospital;
 	json.NewDecoder(r.Body).Decode(&hospital);
 	valid, err := utils.EmailIsValid(hospital.Email);
@@ -48,6 +49,7 @@ func checkIfHospitalExistsByName(hospitalName string) bool {
 
 //GetHospitalById returns a hospital in the database with the specified id (READ)
 func GetHospitalById(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalId := mux.Vars(r)["id"];
 	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
@@ -61,6 +63,7 @@ func GetHospitalById(w http.ResponseWriter, r *http.Request) {
 
 //GetHospitalByName returns a hospital in the database with the specified name (READ)
 func GetHospitalByName(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalName := mux.Vars(r)["name"];
 	var hospitals []entities.Hospital;
 	hospitalName = fmt.Sprintf("%%%s%%", hospitalName);
@@ -75,6 +78,7 @@ func GetHospitalByName(w http.ResponseWriter, r *http.Request) {
 
 //GetHospitalByCountry returns a hospital in the database with the specified country (READ)
 func GetHospitalByCountry(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalCountry := mux.Vars(r)["country"];
 	var hospitals []entities.Hospital;
 	hospitalCountry = fmt.Sprintf("%s%%", hospitalCountry);
@@ -89,6 +93,7 @@ func GetHospitalByCountry(w http.ResponseWriter, r *http.Request) {
 
 //GetHospitalByService returns a hospital in the database with the specified service (READ)
 func GetHospitalByService(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalService := mux.Vars(r)["service"];
 	var hospitals []entities.Hospital;
 	hospitalService = fmt.Sprintf("%%%s%%", hospitalService);
@@ -104,6 +109,7 @@ func GetHospitalByService(w http.ResponseWriter, r *http.Request) {
 //GetAllHospitals returns all hospitals in the database (READ)
 
 func GetAllHospitals(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	var hospitals []entities.Hospital;
 	database.Instance.Find(&hospitals);
 	hospitalList := entities.HospitalList{Title:"Global list of Hospitals", Hospitals: hospitals};
@@ -114,6 +120,7 @@ func GetAllHospitals(w http.ResponseWriter, r *http.Request) {
 
 //UpdateHospital updates a hospital in the database (UPDATE)
 func UpdateHospital(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalId := mux.Vars(r)["id"];
 	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
@@ -136,6 +143,7 @@ func UpdateHospital(w http.ResponseWriter, r *http.Request) {
 
 //DeleteHospital deletes a hospital in the database (DELETE)
 func DeleteHospital(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalId := mux.Vars(r)["id"];
 	if checkIfHospitalExists(hospitalId) {
 		json.NewEncoder(w).Encode("Hospital Not Found!");
