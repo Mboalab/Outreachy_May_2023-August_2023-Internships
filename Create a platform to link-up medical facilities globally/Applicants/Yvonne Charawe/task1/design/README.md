@@ -6,7 +6,7 @@
 [Figma design file](https://www.figma.com/file/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=0%3A1&t=fajlcrie7a1qcXLK-1)
 
 
-## Prototype:
+## Prototype link:
 
 
 [![](screenshot.png)](https://www.figma.com/proto/IurlVopAWYSmFCEgCU82Zd/Data-Collection-Tool?node-id=2-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2)
