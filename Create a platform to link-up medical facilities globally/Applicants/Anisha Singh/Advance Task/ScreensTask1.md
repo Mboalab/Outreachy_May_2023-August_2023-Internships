@@ -2,7 +2,7 @@
 The purpose of this task is to present the design concept or preview for the Hospital Link up page, which I have created with a focus on catering to both the user's and registerer's perspectives.
 
 # Link to the Design
-https://www.figma.com/file/CGBOSaWgVopEGtLtpbtfF8/Untitled?node-id=31%3A147&t=NxBhDFMW0zkK0yAm-1
+https://www.figma.com/file/VzBFiL1lcARrRwa7LoX7bm/Untitled?node-id=3%3A84&t=2TfTi8hoQumXqJJl-1
 
 # Tools
 ## Figma: 
