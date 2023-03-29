@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -13,7 +14,9 @@ import '../firebase_options.dart';
 
 class SignUp extends StatefulWidget {
   SignUp({super.key});
+  void toHome(){
 
+  }
   @override
   State<SignUp> createState() => _SignUpState();
 }
@@ -104,7 +107,9 @@ class _SignUpState extends State<SignUp> {
                 signup_button(onTap: () async {
                   final email = _email.text;
                   final password = _password.text;
-                  
+                  Firebase.initializeApp();
+                  //Navigator.pushNamedAndRemoveUntil(context, '/Home/', (route) => false);
+                
                   try {
                     // ignore: unused_local_variable
                     final credential = await FirebaseAuth.instance
@@ -124,7 +129,7 @@ class _SignUpState extends State<SignUp> {
                             Text.rich(
                                TextSpan(
                                 children: [
-                                  TextSpan(text: 'The account already exists '),
+                                  const TextSpan(text: 'The account already exists '),
                                   TextSpan(text: '$email', style: TextStyle(color:Colors.blue[300] ))
                                 ]
                                ),
@@ -137,20 +142,25 @@ class _SignUpState extends State<SignUp> {
                   }
                 }),
                 const SizedBox(height: 10),
-                const Text.rich(TextSpan(
-                    style: TextStyle(
+                 Text.rich(TextSpan(
+                    style: const TextStyle(
                         color: Colors.black, fontSize: 15), //apply style to all
                     children: [
-                      TextSpan(
+                      const TextSpan(
                           text: 'Already have an account?',
                           style: TextStyle(
                               fontWeight: FontWeight.normal,
                               fontFamily: 'Montserrat')),
-                      TextSpan(
-                          text: 'Login',
-                          style: TextStyle(
-                              color: Color(0xff05c555), fontFamily: 'Montserrat'))
-                    ]))
+                    TextSpan(
+                        text: 'Log in',
+                        style:  const TextStyle(
+                            color: Color(0xff05c555), fontFamily: 'Montserrat'),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () => Navigator.of(context)
+                              .pushNamedAndRemoveUntil(
+                                  '/login/', (route) => false))
+                  ]))
+
               ],
             )
         )
