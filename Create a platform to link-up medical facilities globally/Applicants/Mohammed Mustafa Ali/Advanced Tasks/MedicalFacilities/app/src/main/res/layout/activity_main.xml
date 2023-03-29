@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/hospital_teal"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:src="@drawable/logo_64"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="35sp"
+        android:background="@drawable/circle"
+        />
+
+
+    <TextView
+        android:text="Find the \nMedical \nFacility\nnear you !"
+        android:layout_width="305sp"
+        android:layout_height="259sp"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sf_pro_rounded_heavy"
+        android:layout_marginLeft="40sp"
+
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="250sp"
+        android:src="@drawable/intro_screen"
+        />
+    <Button
+        android:id="@+id/btn_getStarted"
+        android:text="@string/get_started"
+        android:fontFamily="@font/sf_pro_text_bold"
+        android:textColor="@color/hospital_teal"
+        android:textSize="15sp"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/white"
+        android:textAllCaps="false"
+
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
