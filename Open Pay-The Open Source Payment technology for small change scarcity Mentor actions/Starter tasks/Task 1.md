@@ -1,5 +1,5 @@
 ## Objective: 
-With this task, participants are invited to compile relevant infomation about Paiment solutions and create contents that will be share through the project's web platform. 
+With this task, participants are invited to compile relevant information about Payment solutions and create contents that will be share through the project's web platform. 
 Content include blog notes, articles, project description and any other relevant document deemed useful by the applicant. 
 It is also a great opportunity to make your own participation and experience a source of inspiration for others. 
 
@@ -14,8 +14,8 @@ It is also a great opportunity to make your own participation and experience a s
 
 
 ## Main activities to complete: 
-- Compile information about paiement solutions;
-- Create and design text content based on collected informations. call for new contributors. 
+- Compile information about payment solutions;
+- Create and design text content based on collected information. call for new contributors. 
 
 
 
