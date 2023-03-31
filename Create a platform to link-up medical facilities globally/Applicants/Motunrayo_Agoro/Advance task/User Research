@@ -1,0 +1,81 @@
+My process
+To carry out this task, i made use of  the following method
+User research
+UI design
+Interaction
+Prototyping and user testing
+
+
+Primary Goal
+The aim of the project is highlighted below
+
+The app should be a link between patients and hospitals. This means patients can use the app to search for medical facilities close to them or facilities that have the kind of treatment they want. This app should give patients the option to search based on Location, specialty, cost, availability and treatment given.
+The app should link hospitals together. This means medical personnel or a medical facility can search for other facilities for transfer of patients, surgical operation and medical consultation. This should also be based on location, specialty, cost and availability.
+Provide important information: One of our goals is to collect important information about patients medical records, and ailments in order to help hospitals know what they are dealing with. Also to collect the right information about medical facilities so as to allow patients to feel at ease about consulting a medical facility through the app. This information about hospitals, includes their specialties, facilities, ratings, and patient reviews. Make sure this information is easily accessible and presented in a way that is easy to understand.
+Providing Control And Freedom. Sometimes patients can make mistakes or change their minds when making decisions or interacting with applications. And of course, the app interface should enable the user to exit unwanted flows, undo wrong actions, or back to the previous state of the interface.
+Ensure data privacy and security about patients. Patients will be sharing sensitive information about their health and personal data. One of our goals is to make sure the app meets recommended data privacy and security standards and to make sure patients data is protected.
+Language dispute. Since this will be an app that will be used universally, our goal is to add a language translator service by which users from different countries can use the app comfortably.
+
+Must Have Features
+During my research, i was able to come up with some features that the app need to have which include:
+Profile. This app should have profile features of 3 different users which include. Hospital profile that contains all information about the hospital, a medical personnel profile which contains a professional profile about a medical person and a patient's profile.
+Multilingual support/Language translator service support. This app should support multiple languages or at least support language translation for effective communication.
+Message/chat feature. This app should give a chat feature whereby patients can communicate with medical professionals and also allow medical facility messages to each other.
+Search/link feature. This app should allow patients to search for hospitals or link patients to what hospitals based on their location. This should also allow medical professional search for facilities based on their search information.
+Medical record/patient option. This feature is linked together in two ways.
+These includes
+Medical Record. Medical professional/medical facility should have access to patients medical record so as to know how to deal with patients medical issues
+Allow features. Patients should have a feature on their page that allows them to set their medical record privacy, either to a particular hospital/doctor or to themselves. 
+
+
+Should have Features
+
+Appointment Booking: patients should have access to medical appointments and receive appointment confirmation through the app.
+Telemedicine: The app should give access to online consultation with desired medical professional ( can be added later considering MVP)
+Payment services: Allow patients pay for medical services to doctors/hospitals and between medical facility 
+
+Competitive Research
+
+I did a lot of research on medical/health apps that are available and fully functional around the world. My focus was on apps that are mostly used by users with one healthy condition or the other and also users that want to improve their health condition which include:
+
+MyChart App: This is a healthcare platform that allow users see their medication, test results, book appointments, pay medical bills 
+Note: These App do not connect hospitals together,only connects patients to doctors or medical facility
+
+MDLive App: This app only connect patients to different specialties
+
+Doctor On Demand App: This only allow doctors meet patients virtually
+ 
+Using these 3 Apps for my competitive analysis, I was able to understand that these apps only allow patients to connect with doctors and schedule appointments either online or walk-In treatment. These apps do not give users the option to pick hospitals they want to be treated in, they do not give room for doctors/medical professionals from a particular hospital to schedule appointments with other health facilities based on their speciality which means these apps are limited. Also most of these apps are country restricted. 
+
+Targeted Users
+Based on my research process and conclusion, i was able to highlight three users that the project is aimed at which are
+Patients: These are individual that have one ailment or the other looking for hospitals to treat themselves
+Medical personnel: These are users who practice medicine and can be consulted online for one issue or the other
+Medical facilities/hospitals: These are facilities where other users are directed to for treatments and consultation also.
+
+Persona 1
+Name: Loffi Pearl
+Type: Patient - Ovarian cyst patient
+Age: 25
+User Description:
+Loffi is a lady that has been diagnosed with ovarian cyst, she was tested and result came out and she needs to have surgery, but because the hospital she used can not perform her surgery,  she is really worried and nervous about the whole process and looking for the best medical facility she can find. She is looking for hospitals with best care and hospitals that perform surgery of her kind. She knows her way around the internet and can use different technology comfortably.
+
+She might want to survey various clinics, and analyze the best clinic offering Ovarian cyst surgery since she heard of a case of a young lady like her that had complication after performing ovarian cyst surgery.
+
+Pain point
+She likes innovative  technologies she can freely interact with, simple and easy to use. 
+She wants to keep her ailment confidential so she leans toward technology that is reliable when it comes to user privacy
+She wants an hospital she  can undergo surgery without been scared of difficult complication that might happen
+
+Persona 2
+Name: Dr. blessing Peace
+Type: medical doctor
+Age: 47
+User Description:
+Dr. Blessing is a medical doctor looking for a hospital she can refer her patient to for surgery and consultation. She decided to use an online platform that can help find medical facilities based on what she is looking for such as service offered, specialty, and location.she also wants to have access to full details of a hospital and also be able to speak with a personnel that works in the hospital. So clinics ought to give itemized portrayals of the administrations they offer, as well as suggested depictions. A specialist can then look into those point by point depictions to completely comprehend what the emergency clinic does.
+
+Technical skill
+I will be working on the UI and UX of this App using The FIGMA software and also prototype this to give it the feel. I will be testing the prototype design to give the function of the app.
+
+
+
