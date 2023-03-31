@@ -1,7 +1,6 @@
-## Introduction:
+## Is Payment technology for small change scarcity a worthy reserach
 From the famous M-Pesa in East Africa to Flutterwave in Nigeria, there is a need for a virtual payment method that Africa as a whole can adapt to. I am particulary passionate about the Cyber Security aspect of it since most Africans, especially where I come from want to feel the money they have with their physical hands. However, with the evolving world, the talk of vitual money is becoming more and more appealing to our society. 
 
-## Is Payment technology for small change scarcity a worthy reserach: 
 >**'Make single or bulk transfers to bank accounts from your Flutterwave dashboard.'**  
 >**'M-PESA is a mobile phone-based money transfer service...'**
 
