@@ -1,6 +1,6 @@
 # Limitations in the adoption of Payment Solutions
 
-There has been some limitations in adoption and wide use of Payments Solutions by the local population, especially in the informal sectors, because of certain hassles that come with adopting these Payment Solutions; like Processing fees, Complex Payment Processing Technologies, inability to perform basic daily transactions without having to cash out at the nearest agent and pay associated fees, e.t.c.
+There has been some limitations in the adoption and wide use of Payments solutions by the local population, especially in the informal sectors, because of certain hassles that come with adopting these Payment solutions; like Processing fees, Complex Payment Processing Technologies, inability to perform basic daily transactions without having to cash out at the nearest agent and pay associated fees, e.t.c.
 
 Hence, certain measures have to be tailored to curb these issues; that means solutions that provide complete transparency, that are economical, customizable and easy to use — designed to drive growth and provide a community presence.
 

@@ -6,9 +6,9 @@
 
 The shortage of coins (small change) is today a serious problem in many countries having a detrimental impact on commercial activities: gas stations, bakeries, pharmacies, food markets, no sector is immune from this problem. The situation affects sellers who see their turnover drop considerably because to sell, they must first have the small change to give back to consumers who, in most cases, come with banknotes. The situation is just as difficult for consumers who needs to prepare change in advance or make undesired purshases to buy any item. 
 
-A good number of reasons can explain the occurence of this problem including the increasing number of small Jobs meaning that more small change is needed.
+A good number of reasons can explain the occurence of this problem, including the increasing number of small Jobs, meaning that more small change is needed.
 
-If comercial solution to the problem exist, through smart payment methods and tools, there has been some limitation in the adoption and wide use of these technologies by local population especially in the informal sector where this problem is mostly felt. 
+If commercial solutions to this problem exist, through smart payment methods and tools, there has been some limitations in the adoption and wide use of these technologies by local population especially in the informal sector where this problem is mostly felt. 
 
 Our project aims to solve the issue of small cash scarcity by bridging the gap between trust, inclusion and technological performance. We want to develop an Open Source technology combining the used of a mobile app, couple with a miniaturised hardware system to transform any smart device (smart phone, tablet etc..) into payment tool.
 

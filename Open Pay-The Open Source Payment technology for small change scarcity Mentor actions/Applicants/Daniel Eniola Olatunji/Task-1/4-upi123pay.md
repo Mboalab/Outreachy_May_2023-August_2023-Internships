@@ -4,9 +4,9 @@ This Payment solution is in some way, similar to the project that we, at MboaLab
 
 The National Payments Corporation of India has created their own system, Unified Payments Interface (UPI), a mobile application wherein users can handle their banking operations and make payments. UPI is a front-running initiative such as the use of Quick-Response(QR) codes for transactions and enabling both peer-to-peer and peer-to-merchant online transfers.
 
-The Reserve Bank of India(RBI) recently launched an interactive IVR(Interactive Voice Response)-based Unified Payment Interface(UPI) service called ‘UPI 123pay’, which can be used even by those who do not have a smartphone or an active internet connection.
+The Reserve Bank of India(RBI) recently launched an IVR(Interactive Voice Response)-based Unified Payment Interface(UPI) service called ‘UPI 123pay’, which can be used even by those who do not have a smartphone or an active internet connection.
 
-Feature phone users can conduct a variety of transactions based on four technological alternatives via UPI 123PAY; calling an IVR(interactive voice response) number, app functionality in feature phones, a missed call-based approach, and proximity sound-based payments.
+Feature phone users can conduct a variety of transactions based on four technological alternatives via UPI 123PAY; calling an IVR(Interactive Voice Response) number, app functionality in feature phones, a missed-call-based approach, and proximity sound-based payments.
 
 UPI 123Pay enables offline payments using feature phones; through a call-based system, customers set up their own IDs and create a verifiable PIN that will be used for future offline transactions.
 
@@ -28,7 +28,7 @@ Offline digital payment may be a crucial development for financial inclusion, bu
 
 For example, offline payments pose higher security risks. To protect the sensitive information of customers and merchants, offline transactions are limited to small-value payments, such as prepaid cards with very low limits.
 
-A few technologies have been in the works to address this issue; one such technology is a debit card with radio frequency identification(RFI) that can facilitate transactions offline, if in proximity.
+A few technologies have been in the works to address this issue; one such technology is a debit card with Radio Frequency Identification(RFID) that can facilitate transactions offline, if in proximity.
 
 Another innovative approach in India is the use of sound-based authentication, where voice is used as biometric data to confirm a user’s credentials. Voice recognition could be an especially useful technology in places like Afghanistan, where women may be unwilling or unable to show their faces for biometric authentication.
 
