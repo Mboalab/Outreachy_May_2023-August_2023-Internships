@@ -29,7 +29,10 @@ I was able to come up with eight screens including three pages to onboard users(
 
 ### The Wireframe and High-Fidelity Designs
 
-Link to wireframe and hi-fi designs: [https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=9%3A2&t=cP8FXmNkJBezuynb-1](https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=9%3A2&t=cP8FXmNkJBezuynb-1)
+Link to wireframe: [https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=0%3A1&t=VdSxf2HWE596Ixia-1](https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=0%3A1&t=VdSxf2HWE596Ixia-1)
+
+Link to hi-fi design: [https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=9%3A2&t=cP8FXmNkJBezuynb-1](https://www.figma.com/file/khfXcqlIM6Vg3MsPEJrgIu/Hospital-Link-up?node-id=9%3A2&t=cP8FXmNkJBezuynb-1)
+
 
 ## What I learnt
 
@@ -38,4 +41,5 @@ This is my first time coming up with a product design. I have put in my best and
 - Basics of user experience
 - User empathy
 - How to come up with a minimum viable product
+- Color Rules
 - How to use figma
