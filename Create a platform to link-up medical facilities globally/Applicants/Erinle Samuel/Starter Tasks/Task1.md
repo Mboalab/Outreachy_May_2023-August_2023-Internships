@@ -53,6 +53,10 @@ When user/hospital register and fill in the form, they can see their information
 
 In other to use the api for the proposed platform, there is a _Get_ method that returns a list of data collected from all hospitals that have signed up for the system. You can try it out using [https://daniel2345.pythonanywhere.com/api/hospital/all/](https://daniel2345.pythonanywhere.com/api/hospital/all/).
 
+### Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6HUbKCOzguU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Ways to improve the Data collection website
 
 - Add more functionalities to improve user experience, like

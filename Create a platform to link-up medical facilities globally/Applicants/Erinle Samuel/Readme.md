@@ -16,5 +16,12 @@ My name is Erinle Samuel, a Software developer. I am contributing to _Creating a
 3. **Advance Task**
    - **Create a MVP for the proposed platform**: [Proposed Application and Design]()
 
+
+## Folder Structure
+- A brief introduction about me can be found in the __introduction.md__
+- In the __Starter Tasks__ folder, there are two files. The first, __Task0.md__ contains the solution to the first task. While the second one, __Task1.md__ contains the data collection tool I created for the proposed platform.
+- The second folder,__Advance Task__ contains two files. The first file, __AppDev.md__ contains information about the development of the MVP, while __Design.md__ contains important information about the UI/UX of the proposed app. I decided to separate the design from development, in order to improve readability. 
+
+
 Thank you very much for the opportunity. It's a pleasure contributing to Mboalab. I hope to stay connected with you. I am available on:
 [LinkedIn](https://www.linkedin.com/in/erinle-samuel/), [Twitter](https://twitter.com/erinle_sam), [Whatsapp](https://wa.me/2348158842213),
