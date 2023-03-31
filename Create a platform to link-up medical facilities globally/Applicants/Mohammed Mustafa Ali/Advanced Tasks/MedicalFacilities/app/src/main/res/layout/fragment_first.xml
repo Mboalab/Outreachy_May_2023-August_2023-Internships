@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:text="LOGIN"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/sf_pro_text_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="150sp"/>
+
+</FrameLayout>

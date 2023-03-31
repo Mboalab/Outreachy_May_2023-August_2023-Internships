@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen"
+    android:orientation="vertical"
+    android:background="#F2F2F2">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20sp"
+        app:cardElevation="30sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_128_xhdpi"
+            android:layout_gravity="center"/>
+
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/teal_700"
+            app:tabSelectedTextColor="@color/teal_200"
+            app:tabTextColor="#2B2727"
+            app:tabTextAppearance="@style/TabLayoutTextStyle"
+            />
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        />
+
+
+</LinearLayout>
