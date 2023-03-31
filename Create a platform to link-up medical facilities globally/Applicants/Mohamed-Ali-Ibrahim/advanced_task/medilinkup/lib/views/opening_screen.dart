@@ -14,7 +14,9 @@ void printMe(){}
 
   @override
   Widget build(BuildContext context) {
+    
     return  Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(10),
@@ -35,11 +37,16 @@ void printMe(){}
              const SizedBox(height: 400),
           
                 signup_button(
-                  onTap: printMe,
+                  onTap: (){
+                     Navigator.pushNamedAndRemoveUntil(context, '/signup/', (route) => false);
+                  },
                 ),
                 
                 const SizedBox(height: 10),
-                signin_button(onTap: printMe)
+                signin_button(onTap: (){
+                   Navigator.pushNamedAndRemoveUntil(context, '/login/', (route) => false);
+
+                })
           ],
         ),
         )
