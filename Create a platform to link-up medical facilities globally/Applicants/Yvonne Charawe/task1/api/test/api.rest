@@ -1,0 +1,71 @@
+# TEST ENDPOINTS
+
+@host = localhost:5050
+
+// Create Hospital (ON EMAIL VERIFICATION ONLY!!)
+POST http://{{host}}/api/v1/hospitals/new HTTP/1.1
+content-type: application/json
+    
+{
+    "email":"info@testhospital.com",
+    "name": "test-hospital",
+    "country": "test-nation",
+    "region": "test-region",
+    "operating hours": "test-hours",
+    "services": "Accident and emergency (A&E),Burns Unit,Cardiology,General Surgery",
+    "website": "test-hospital-website.com"
+}
+
+###
+
+// Get Hospital By ID
+GET http://{{host}}/api/v1/hospitals/201 HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Name
+GET http://{{host}}/api/v1/hospitals/names/international HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Country
+GET http://{{host}}/api/v1/hospitals/countries/a HTTP/1.1
+content-type: application/json
+
+###
+
+//Get Hospital By Service
+GET http://{{host}}/api/v1/hospitals/services/oncology HTTP/1.1
+content-type: application/json
+
+###
+
+// Get All Hospitals
+GET http://{{host}}/api/v1/hospitals HTTP/1.1
+content-type: application/json
+
+###
+
+// Update Hospital (ON EMAIL VERIFICATION ONLY!!)
+PUT http://{{host}}/api/v1/hospitals/201 HTTP/1.1
+content-type: application/json
+
+{
+    "email":"info@testhospital.com",
+    "name": "updated-test-hospital",
+    "country": "test-nation",
+    "region": "test-region",
+    "operating hours": "test-hours",
+    "services": "Accident and emergency (A&E),Burns Unit,Cardiology,General Surgery",
+    "website": "test-hospital-website.com"
+}
+
+###
+
+// Delete Hospital  (ADMIN ONLY!!)
+DELETE http://{{host}}/api/v1/hospitals/249 HTTP/1.1
+content-type: application/json
+
+###
