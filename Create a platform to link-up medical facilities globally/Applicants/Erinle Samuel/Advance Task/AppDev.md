@@ -18,8 +18,10 @@ I built a 8-screen page with flutter, which I designed using figma(**kindly chec
 
 To access my work, I have uploaded recording of the app on youtube. You can access it here:
 
+### Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pf5MUXRdzw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Github repo
 Link to the github repository: [https://github.com/psalmuelle/medlink](https://github.com/psalmuelle/medlink)
 
 
