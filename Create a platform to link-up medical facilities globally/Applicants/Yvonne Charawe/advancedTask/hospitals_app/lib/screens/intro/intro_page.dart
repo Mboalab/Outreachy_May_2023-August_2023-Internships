@@ -22,7 +22,7 @@ class _IntroPageState extends State<IntroPage> {
   @override
   void initState() {
     super.initState();
-    _timer = Timer.periodic(const Duration(seconds: 5), (Timer timer) {
+    _timer = Timer.periodic(const Duration(seconds: 2), (Timer timer) {
       if (_currentPage < 2) {
         _currentPage++;
       } else {
@@ -30,7 +30,7 @@ class _IntroPageState extends State<IntroPage> {
       }
       _pageController.animateToPage(
         _currentPage,
-        duration: const Duration(milliseconds: 150),
+        duration: const Duration(milliseconds: 350),
         curve: Curves.easeInOut,
       );
     });
@@ -75,7 +75,7 @@ class _IntroPageState extends State<IntroPage> {
                 text: 'services',
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                    color: ColorUtil.fromHex('#C92892'),
+                    color: ColorUtil.fromHex('#C92C6D'),
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                   ),
@@ -124,7 +124,7 @@ class _IntroPageState extends State<IntroPage> {
                 text: 'near',
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                    color: ColorUtil.fromHex('#C92892'),
+                    color: ColorUtil.fromHex('#C92C6D'),
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                   ),
@@ -173,7 +173,7 @@ class _IntroPageState extends State<IntroPage> {
                 text: ' name',
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                    color: ColorUtil.fromHex('#C92892'),
+                    color: ColorUtil.fromHex('#C92C6D'),
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
@@ -193,7 +193,7 @@ class _IntroPageState extends State<IntroPage> {
                 text: ' location',
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                    color: ColorUtil.fromHex('#C92892'),
+                    color: ColorUtil.fromHex('#C92C6D'),
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
@@ -213,7 +213,7 @@ class _IntroPageState extends State<IntroPage> {
                 text: ' click on a service',
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                    color: ColorUtil.fromHex('#C92892'),
+                    color: ColorUtil.fromHex('#C92C6D'),
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
@@ -234,35 +234,37 @@ class _IntroPageState extends State<IntroPage> {
         ),
       ]),
     ];
-    return Scaffold(
-      body: Stack(
-        children: [
-          Positioned(
-            bottom: 0,
-            left: 0,
-            right: 0,
-            top: 0,
-            child: PageView(
-              controller: _pageController,
-              onPageChanged: (int index) {
-                setState(() {
-                  _currentPage = index;
-                });
-              },
-              children: _pages,
+    return SafeArea(
+      child: Scaffold(
+        body: Stack(
+          children: [
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              top: 0,
+              child: PageView(
+                controller: _pageController,
+                onPageChanged: (int index) {
+                  setState(() {
+                    _currentPage = index;
+                  });
+                },
+                children: _pages,
+              ),
             ),
-          ),
-          Positioned(
-            bottom: 0,
-            left: 0,
-            right: 0,
-            child: BottomOptions(
-              currentPage: _currentPage,
-              totalPages: _pages.length,
-            ),
-          )
-        ],
-      ),
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: BottomOptions(
+                currentPage: _currentPage,
+                totalPages: _pages.length,
+              ),
+            )
+          ],
+        ),
+      )
     );
   }
 }
