@@ -40,6 +40,18 @@ dependencies:
   # Google Fonts
   google_fonts: ^2.0.0
 
+  #Flutter Bloc
+  flutter_bloc: ^8.1.1
+
+  #HTTP
+  http: ^0.13.5
+
+  #Equatable
+  equatable: ^2.0.5
+  meta: ^1.8.0
+  loading_animation_widget: ^1.2.0+4
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -66,8 +78,10 @@ flutter:
   assets:
     - assets/app.png
     - assets/hospital.png
+    - assets/hospital-symbol.png
     - assets/hospitals.png
     - assets/location.png
+    - assets/vector.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
