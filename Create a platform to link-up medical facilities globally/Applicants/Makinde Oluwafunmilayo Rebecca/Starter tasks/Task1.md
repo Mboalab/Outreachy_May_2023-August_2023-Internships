@@ -7,39 +7,39 @@ The necessary information needed for a complete registration has to be decided f
 
 Page 1: Hospital Information
 
-Hospital Name
-Address
-Location (Country, State/Province, City, Zip/Postal Code)
-Phone Number
-Email Address
-Website URL
+- Hospital Name
+- Address
+- Location (Country, State/Province, City, Zip/Postal Code
+- Phone Number
+- Email Address
+- Website URL
 
 Page 2: Hospital Type, Size, and Pictures
 
-Type of Hospital (Public, Private, Non-Profit)
-Number of Beds
-Number of Staff
-Teaching Hospital (Yes or No)
-Affiliations or Partnership
-Link to images of the hospital
+- Type of Hospital (Public, Private, Non-Profit)
+- Number of Beds
+- Number of Staff
+- Teaching Hospital (Yes or No)
+- Affiliations or Partnership
+- Link to images of the hospital
 
 Page 3: Hospital Specializations and Services
 
-Specializations 
-Services Provided 
-Facilities Available
-Equipment Available 
+- Specializations 
+- Services Provided 
+- Facilities Available
+- Equipment Available 
 
 Page 4: Language 
-Languages Spoken 
-Do they accept people who don't speak their language
+- Languages Spoken 
+- Do they accept people who don't speak their language
 
 Page 5: Contact Information
 
-Who to speak with, when further information is needed
-Person's phone number
-Person's email address
-Comments
+- Who to speak with, when further information is needed
+- Person's phone number
+- Person's email address
+- Comments
 
 
 
