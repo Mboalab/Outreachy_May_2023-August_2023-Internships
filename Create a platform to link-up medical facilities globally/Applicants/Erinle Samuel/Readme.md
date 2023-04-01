@@ -14,7 +14,7 @@ My name is Erinle Samuel, a Software developer. I am contributing to _Creating a
    - **Task 1**: [Create a data collection tool](https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/pull/158)
 
 3. **Advance Task**
-   - **Create a MVP for the proposed platform**: [Proposed Application and Design]()
+   - **Create a MVP for the proposed platform**: [Proposed Application and Design](https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/pull/227)
 
 
 ## Folder Structure
