@@ -22,7 +22,13 @@ To access my work, I have uploaded recording of the app on youtube. You can acce
 
 Link to the github repository: [https://github.com/psalmuelle/medlink](https://github.com/psalmuelle/medlink)
 
+
+
 I would really appreciate your feedback
 ### Side Note
-_This is my first time of creating mobile application with flutter. I tried to cover a lot within this short period, I hope to learn more and apply what i have learnt in building the proposed platform._
+<hr/>
+I have included steps on how to install the app on your local machine in the readme file on the github repo
+<hr/>
+This is my first time of creating mobile application with flutter. I tried to cover a lot within this short period, I hope to learn more and apply what i have learnt in building the proposed platform.
+<br/>
 Thank you 🙏

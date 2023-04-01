@@ -51,7 +51,7 @@ When user/hospital register and fill in the form, they can see their information
 - Link to Live Website: [Live Website](https://mboalab-task.onrender.com/)
 - Link to access the backend api: [API](https://daniel2345.pythonanywhere.com/api/)
 
-In other to use the api for the proposed platform, there is a _Get_ method that returns a list of data collected from all hospitals that have signed up for the system. You can try it out using [https://daniel2345.pythonanywhere.com/api/hospital/all/](https://daniel2345.pythonanywhere.com/api/hospital/all/).
+In other to use the api for the proposed platform, there is a _Get_ method that returns a list of data collected from all hospitals that have signed up for the system. You can try it out using [https://daniel2345.pythonanywhere.com/api/hospital/all/](https://daniel2345.pythonanywhere.com/api/hospital/all/)
 
 ### Video
 
@@ -66,5 +66,8 @@ In other to use the api for the proposed platform, there is a _Get_ method that 
 - Improve UI to fit that of the platform to give uniformity in design and structure
 
 Feebacks on ways it can be improved is welcome! I hope to keep working and iterate on the idea to create a platform that connects hospitals globally.
+
+## Side Note
+I have included steps on how to install the projects on your local machine in the readme file on the github repos
 
 Thank you!
