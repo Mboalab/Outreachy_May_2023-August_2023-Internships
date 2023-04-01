@@ -8,7 +8,7 @@
 ## Prototype link:
 
 
-[![](screenshot.png)](https://www.figma.com/proto/ttQ6xSWXu21AxkyIoQZB64/Global-Hospitals-Mobile-App?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2)
+[![](screenshot.png)](https://www.figma.com/proto/ttQ6xSWXu21AxkyIoQZB64/Global-Hospitals-Mobile-App?node-id=7-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A2)
 
 
 ## Technology Used
