@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hospitals">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:text="Hospitals Coming Soon..."
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="match_parent"
+        android:textColor="@color/hospital_teal"
+        android:gravity="center"
+        android:fontFamily="@font/sf_pro_text_bold"/>
+
+</FrameLayout>

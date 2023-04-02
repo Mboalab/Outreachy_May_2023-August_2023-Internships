@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalRegistration"
+    android:orientation="vertical"
+    android:background="@color/hospital_teal">
+
+    <ImageView
+        android:src="@drawable/logo_64"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        />
+
+    <TextView
+        android:text="Hospital Registration Form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sf_pro_rounded_heavy"
+
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="330sp"
+        android:layout_height="470sp"
+        app:cardCornerRadius="20sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="17sp">
+
+            <EditText
+                android:hint="Hospital Name"
+                android:id="@+id/HospitalName"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/loginform_bg"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginBottom="30sp" />
+            <EditText
+                android:hint="Hospital Address"
+                android:id="@+id/HospitalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/loginform_bg"
+                android:gravity="center"
+                android:textColor="@color/hospital_teal"
+                android:layout_marginBottom="30sp"/>
+
+            <EditText
+                android:id="@+id/Services"
+                android:hint="Add Services"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/loginform_bg"
+                android:gravity="center"
+                android:textColor="@color/hospital_teal"
+                android:layout_marginBottom="30sp"/>
+
+            <EditText
+                android:id="@+id/Facilities"
+                android:hint="Add Facilities"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/loginform_bg"
+                android:gravity="center"
+                android:textColor="@color/hospital_teal"
+                android:layout_marginBottom="30sp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/btn_hospitalRegistration"
+        android:text="Submit"
+        android:fontFamily="@font/sf_pro_text_bold"
+        android:textColor="@color/hospital_teal"
+        android:textSize="15sp"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/white"
+        android:textAllCaps="false"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

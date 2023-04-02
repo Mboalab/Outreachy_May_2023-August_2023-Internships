@@ -3,10 +3,10 @@
 
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=Mboalab&style=style=flat&color=BC4E99" alt="Star Badge"/>
-<a href="https://github.com/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project/stargazers"><img src="https://img.shields.io/github/stars/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project" alt="Stars Badge"/></a>
-<a href="https://github.com/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project/network/members"><img src="https://img.shields.io/github/forks/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project" alt="Forks Badge"/></a>
-<a href="https://github.com/Mboalab/Mboalab_Outreachy-May-Aug-2022/pulls"><img src="https://img.shields.io/github/issues-pr/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project/issues"><img src="https://img.shields.io/github/issues/Mboalab/Outreachy_December_2022-March_2023-Internships-Typhoid-diagnostics-Project" alt="Issues Badge"/></a>
+<a href="https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/stargazers"><img src="https://img.shields.io/github/stars/Mboalab/Outreachy_May_2023-August_2023-Internships" alt="Stars Badge"/></a>
+<a href="https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/network/members"><img src="https://img.shields.io/github/forks/Mboalab/Outreachy_May_2023-August_2023-Internships" alt="Forks Badge"/></a>
+<a href="https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/pulls"><img src="https://img.shields.io/github/issues-pr/Mboalab/Outreachy_May_2023-August_2023-Internships" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/Mboalab/Outreachy_May_2023-August_2023-Internships/issues"><img src="https://img.shields.io/github/issues/Mboalab/Outreachy_May_2023-August_2023-Internships" alt="Issues Badge"/></a>
   
   ![Mboalab](https://user-images.githubusercontent.com/63330165/161022905-50be0130-c1f8-4beb-95ea-137e6c780d5e.jpg)
   

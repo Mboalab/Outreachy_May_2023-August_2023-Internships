@@ -16,7 +16,7 @@ Before creating the data collection tool, I identified the key information that 
 ## Choosing the Format of the Data Collection Tool
 I decided to use Google Forms as the format for the data collection tool as it allows for easy collection and organization of data, both remotely and onsite. Google Forms also provides an easy-to-use interface for the hospitals to input their information.
 
-[View the Data Collection Tool](https://forms.gle/FYuP7W8yF9zTXmDr9)
+[View the Data Collection Tool](https://docs.google.com/forms/d/e/1FAIpQLSed04F_5O6IjSbQ0SXDnGL1HHV7ANKx0jnGaZ0DVxPzHmWDZQ/viewform?usp=sf_link)
 
 
 ## Creating the Data Collection Tool
@@ -26,7 +26,7 @@ The data collection tool was created using Google Forms, with the necessary fiel
 ## Confirmation Message for Successful Form Submission
 Once the hospital submits their form, they will receive a confirmation message indicating that their submission has been successful. The message will thank them for their submission and let them know that the system administrator will review their application and respond to them shortly.
 
-[View the Data Collection Tool](https://forms.gle/FYuP7W8yF9zTXmDr9)
+[View the Data Collection Tool](https://docs.google.com/forms/d/e/1FAIpQLSed04F_5O6IjSbQ0SXDnGL1HHV7ANKx0jnGaZ0DVxPzHmWDZQ/viewform?usp=sf_link)
 
 
 
@@ -36,4 +36,4 @@ The data collection tool will be monitored regularly to ensure that it is functi
 ## Conclusion
 This task has successfully created a data collection tool for hospitals to sign-up for a system remotely and onsite. The tool collects necessary information about the hospital, including name, location, services offered, facilities available, and other relevant information. By using Google Forms, the tool provides an easy-to-use interface for hospitals to input their information, and the system administrators to organize the collected data. The data collection tool will be monitored and updated regularly to ensure that it continues to meet the needs of the hospitals and the system administrators.
 
-[View the Data Collection Tool](https://forms.gle/FYuP7W8yF9zTXmDr9)
+[View the Data Collection Tool](https://docs.google.com/forms/d/e/1FAIpQLSed04F_5O6IjSbQ0SXDnGL1HHV7ANKx0jnGaZ0DVxPzHmWDZQ/viewform?usp=sf_link)
