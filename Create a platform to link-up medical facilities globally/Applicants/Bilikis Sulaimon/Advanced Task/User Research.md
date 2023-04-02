@@ -25,7 +25,7 @@ Responses showed that health care workers go through tough time when they need m
 **Occupation**: Attending Physician
 
 **Goal**: She wants to be able get adequate information about hospitals around her and facilities that are not available in her hospital.
-**Frustration**:“I send my patient to a particular hospital to be treated based on the information I get off the internet but patients come back with complains of untrue information feedback and this makes feel unproffessional”
+**Frustration**:“I send my patient to a particular hospital to be treated based on the information I get off the internet but patients come back with complaints of untrue information feedback and this makes feel unproffessional”
 
 **Name**: Benson Bello
 
@@ -47,12 +47,12 @@ Responses showed that health care workers go through tough time when they need m
 
 **Occupation**: Teaching (Patient)
 
-**Goal**: she  needs a platform where She can Search for hospital that treats the exact ailment and positive reviews from patients without having to go through unnecessaryfor hours in another hospital
+**Goal**: she  needs a platform where She can Search for hospital that treats the exact ailment and positive reviews from patients without having to wait for hours in another hospital
 
 **Frustration**: “I Have to go to hospital, wait for hours to be attended to then when it finally gets to my turn, they tell me that the equipment need for diagnosis is not available and then i am being referred to another hospital based on assumptions that they have and not based on fact,”
 
 ### User Story
-* As a medical Superintendent i want to be notified on Updates from other hospitals
+* As a medical Superintendent I want to be notified on Updates from other hospitals
 * As a Nurse I want to be able to communicate effectively with other medical practitioners on the app
 * As a surgeon I want to be able to refer my patients to a competent hospital with the provision of the patient medical history and also get feedbacks from the hospital on the patient health.
 * As a Patient, I want to be able to book appointments online
@@ -71,4 +71,7 @@ Hospitals profile with all their available services and facilities with a map em
 
 * Searchable directory of hospital facilities 
 
+* Ability to book appointment online
 
+Summary
+I have been able to carry out research for the hospital link up platform and succcessfully created designs and prototype for the link up app.
