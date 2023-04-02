@@ -1,0 +1,14 @@
+Hi there,
+ I’m Dorathy Jerry My interests are mobile app and web designs, i am a UI/UX designer from Nigeria
+
+  These are links to my social media profiles :
+  [link to twitter]  https://twitter.com/DorathyNnah 
+ [link to facebook]  facebook : https://www.facebook.com/dee.meyerz, 
+  email : [devdorathyjerry@gmail.com]
+  [link to linkedin] linkedin : https://www.linkedin.com/in/dorathy-nnah-972054145/
+
+My Skills:
+1. UI/UX Design
+2. User story
+3. Wireframing
+4. Prototyping
