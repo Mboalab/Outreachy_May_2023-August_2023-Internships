@@ -5,7 +5,7 @@
 
 ## Demo
 
-https://user-images.githubusercontent.com/97659092/229374104-a40b3477-6bf2-471c-8da7-dfc4707f7025.mp4
+https://user-images.githubusercontent.com/97659092/229375601-54ffb4fb-5ff9-4627-b6d3-75512ea9a555.mp4
 
 ## Requirements
 - `ubuntu` or any Operating System with `Flutter & Android Studio`
