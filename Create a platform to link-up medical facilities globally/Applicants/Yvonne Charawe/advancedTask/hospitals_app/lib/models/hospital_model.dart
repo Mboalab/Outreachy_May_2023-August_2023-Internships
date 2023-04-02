@@ -25,15 +25,15 @@ class HospitalModel {
 
   factory HospitalModel.fromJson(Map<String, dynamic> json) =>
       HospitalModel(
-        id : json["id"],
-        email : json["email"],
-        name : json["name"],
-        country : json["country"],
-        region : json["region"],
-        operatingHours : json["operating hours"],
-        phoneNumber : json["phone number"],
-        services : json["services"],
-        website : json["website"]
+        id : json["id"] as int,
+        email : json["email"] as String,
+        name : json["name"] as String,
+        country : json["country"] as String,
+        region : json["region"] as String,
+        operatingHours : json["operating hours"] as String,
+        phoneNumber : json["phone number"] as String,
+        services : json["services"] as String,
+        website : json["website"] as String
   );
   
   Map<String,dynamic> toJson() {
