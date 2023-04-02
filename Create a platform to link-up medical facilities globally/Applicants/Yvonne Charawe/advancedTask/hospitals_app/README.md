@@ -1,16 +1,40 @@
-# hospitals_app
+# Global Hospitals Mobile Application
 
-A new Flutter project.
+## Project Description
+- This is an application that enables users to search for hospitals and access contact details & service information.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/97659092/229374104-a40b3477-6bf2-471c-8da7-dfc4707f7025.mp4
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
+- `ubuntu` or any Operating System with `Flutter & Android Studio`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup Instructions
+- After cloning the project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+cd 'Create a platform to link-up medical facilities globally/Applicants/Yvonne Charawe/advancedTask/hospitals_app/'
+
+flutter clean
+
+flutter pub get
+
+flutter run
+```
+
+
+## Technologies Used
+- Flutter (Dart)
+- Flutter Bloc
+- Cubit
+- Cupertino
+
+
+## Contact Information
+
+<a href="mailto:charawey@gmail.com">charawey@gmail.com</a>
+
+
+
+© Charawey-X
