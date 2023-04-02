@@ -24,7 +24,9 @@ func AddHospital(w http.ResponseWriter, r *http.Request) {
 		}
 		database.Instance.Create(&hospital);
 		w.Header().Set("Content-Type", "application/json");
-		json.NewEncoder(w).Encode(hospital);
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode(hospital);
 	}
 	if err != nil {
 		json.NewEncoder(w).Encode(err.Error());
@@ -52,7 +54,9 @@ func GetHospitalById(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "*");
 	hospitalId := mux.Vars(r)["id"];
 	if checkIfHospitalExists(hospitalId) {
-		json.NewEncoder(w).Encode("Hospital Not Found!");
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode("Hospital Not Found!");
 		return
 	}
 	var hospital entities.Hospital;
@@ -69,7 +73,9 @@ func GetHospitalByName(w http.ResponseWriter, r *http.Request) {
 	hospitalName = fmt.Sprintf("%%%s%%", hospitalName);
 	database.Instance.Where("name LIKE ?", hospitalName).Find(&hospitals);
 	if len(hospitals) == 0 {
-		json.NewEncoder(w).Encode("No Hospital Found!");
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode("No Hospital Found!");
 		return
 	}
 	w.Header().Set("Content-Type", "application/json");
@@ -84,7 +90,9 @@ func GetHospitalByCountry(w http.ResponseWriter, r *http.Request) {
 	hospitalCountry = fmt.Sprintf("%s%%", hospitalCountry);
 	database.Instance.Where("country LIKE ?", hospitalCountry).Find(&hospitals);
 	if len(hospitals) == 0 {
-		json.NewEncoder(w).Encode("No Hospital Found!");
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode("No Hospital Found!");
 		return
 	}
 	w.Header().Set("Content-Type", "application/json");
@@ -99,7 +107,9 @@ func GetHospitalByService(w http.ResponseWriter, r *http.Request) {
 	hospitalService = fmt.Sprintf("%%%s%%", hospitalService);
 	database.Instance.Where("services LIKE ?", hospitalService).Find(&hospitals);
 	if len(hospitals) == 0 {
-		json.NewEncoder(w).Encode("No Hospital Found!");
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode("No Hospital Found!");
 		return
 	}
 	w.Header().Set("Content-Type", "application/json");
@@ -115,7 +125,9 @@ func GetAllHospitals(w http.ResponseWriter, r *http.Request) {
 	hospitalList := entities.HospitalList{Title:"Global list of Hospitals", Hospitals: hospitals};
 	w.Header().Set("Content-Type", "application/json");
 	w.WriteHeader(http.StatusOK); 
-	json.NewEncoder(w).Encode(hospitalList);
+	e := json.NewEncoder(w);
+	e.SetEscapeHTML(false);
+	e.Encode(hospitalList);
 }
 
 //UpdateHospital updates a hospital in the database (UPDATE)
@@ -133,7 +145,9 @@ func UpdateHospital(w http.ResponseWriter, r *http.Request) {
 	if valid {
 		database.Instance.Save(&hospital);
 		w.Header().Set("Content-Type", "application/json");
-		json.NewEncoder(w).Encode(hospital);
+		e := json.NewEncoder(w);
+		e.SetEscapeHTML(false);
+		e.Encode(hospital);
 	}
 	if err != nil {
 		json.NewEncoder(w).Encode(err.Error());
