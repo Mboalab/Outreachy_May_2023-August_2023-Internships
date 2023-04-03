@@ -5,11 +5,17 @@ This part of the advanced task covers the branding and UI design aspect which en
 | S/N | Task | Status | Result link |
 | -- | -- | -- | -- |
 | 1 | Brand name | Completed | Crosslink |
-| 2 | Brand colors | Completed | [Figjam Link](https://www.figma.com/file/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=13%3A3350&t=fPTiEQygIUYqe6Xq-1) |
-| 3 | Logo design | Completed | [Logo design brief](https://docs.google.com/document/d/1a1WMG8abjbuIW_s5Z8n5a1rPBZmXR7fp/edit?usp=sharing&ouid=113626955331922029315&rtpof=true&sd=true), [Logo design Link](https://www.figma.com/file/8KxHba6T7fp5mlLWq6iWTF/Mboalab?node-id=20%3A887&t=kqDaqwpYT4rZvxZk-1) |
+| 2 | Brand colors | Completed | [Figma Link](https://www.figma.com/file/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=13%3A3350&t=fPTiEQygIUYqe6Xq-1) |
+| 3 | Logo design | Completed | [Logo brief](https://docs.google.com/document/d/1a1WMG8abjbuIW_s5Z8n5a1rPBZmXR7fp/edit?usp=sharing&ouid=113626955331922029315&rtpof=true&sd=true), [Logo design Link](https://www.figma.com/file/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=13%3A3350&t=fPTiEQygIUYqe6Xq-1) |
 | 4 | Mini-styleguide | Completed | [Figma Link](https://www.figma.com/file/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=13%3A3350&t=fPTiEQygIUYqe6Xq-1) |
 | 5 | Hifi designs | Completed | [Figma Link](https://www.figma.com/file/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=13%3A3355&t=fPTiEQygIUYqe6Xq-1) |
-| 6 | Prototype | Completed | [Figma prototype Link](https://www.figma.com/proto/bjTDjyIczQL8LD0iA7rF99/Mboalab?page-id=143%3A5328&node-id=143-7771&viewport=-444%2C-208%2C0.42&scaling=scale-down&starting-point-node-id=143%3A5334), [Video Link]([https://www.figma.com/proto/bjTDjyIczQL8LD0iA7rF99/Mboalab?page-id=143%3A5328&node-id=143-7771&viewport=-444%2C-208%2C0.42&scaling=scale-down&starting-point-node-id=143%3A5334](https://drive.google.com/file/d/19MXNkHzwVayu4X_v3pCw4_wBqmte-lnO/view?usp=sharing)) |
+| 6 | Prototype | Completed | [Figma prototype Link](https://www.figma.com/proto/bjTDjyIczQL8LD0iA7rF99/Mboalab?node-id=143-5328&viewport=268%2C316%2C0.48&scaling=scale-down&starting-point-node-id=143%3A5334), [Video Link](https://drive.google.com/file/d/19MXNkHzwVayu4X_v3pCw4_wBqmte-lnO/view?usp=sharing) |
+
+## Tools
+- Figma
+- Canva
+- Google drive
+- Google doc
 
 ## Methodology and Results
 ### Brand name
