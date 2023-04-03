@@ -1,0 +1,21 @@
+## Wire frame
+I made the lo fidelity wireframe to clarify consistent ways for displaying particular types of information on the user interface and to determine intended functionality in the interface.
+### Below are my screenshot of the wireframes
+![Alt text](Images/wireframes%20images/onboarding%20screen.png)
+![Alt text](Images/wireframes%20images/onboarding%20screen-1.png)
+![Alt text](Images/wireframes%20images/onboarding%20screen-2.png)
+![Alt text](Images/wireframes%20images/onboarding%20screen-3.png)
+![Alt text](Images/wireframes%20images/onboarding%20screen-4.png)
+![Alt text](Images/wireframes%20images/Log%20in.png)
+![Alt text](Images/wireframes%20images/sign%20up%20As%20a%20patient.png)
+![Alt text](Images/wireframes%20images/sign%20up.png)
+![Alt text](Images/wireframes%20images/Home%20Page.png)
+![Alt text](Images/wireframes%20images/Hospital%20Page.png)
+![Alt text](Images/wireframes%20images/Search%20Screen.png)
+![Alt text](Images/wireframes%20images/bOOK%20APPOINTMENT.png)
+![Alt text](Images/wireframes%20images/bOOK%20APPOINTMENT-1.png)
+![Alt text](Images/wireframes%20images/bOOKED%20sUCCESFULLY.png)
+![Alt text](Images/wireframes%20images/menu.png)
+![Alt text](Images/wireframes%20images/Notification.png)
+![Alt text](Images/wireframes%20images/MessageScreen.png)
+![Alt text](Images/wireframes%20images/Inbox.png)

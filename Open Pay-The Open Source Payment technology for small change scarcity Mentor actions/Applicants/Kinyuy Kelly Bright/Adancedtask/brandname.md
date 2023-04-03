@@ -1,0 +1,2 @@
+ # Propose a genuine brand name
+ The first brand name i will suggest is **OpenPay** which is coming from the project name and because the project aim is to solve small cash scarcity isues,I'll give a second suggestion which is **smallpay** or **paysmall**.

@@ -77,3 +77,13 @@ The second proposed color scheme is **Red**; **`#B23F4E`** and **Dark-Green**; *
 And below is the proposed Logo in conjunction with this color scheme.
 
 <img src="pont_2.jpg" width="20%"/>
+
+## Brand Overview
+
+**Pont.** is an innovative financial technology company that enables seamless and hassle-free transactions across local communities. This is achieved by providing a system of different payment solutions that could enable people and businesses in local communities to carry out their daily transactions easily, receive payments instantly, send funds seamlessly and drive growth in local communities.
+
+Pont. bridges local communities and businesses to frictionless transactions, it bridges the gap between local communities, financial inclusion and extension of digital payments. The local communities have been paid less attention regarding financial systems and technology because of lesser economic activities, and we believe they deserve to be fully included in the financial system.
+
+Our mission is to solve the issue of small cash scarcity in local communities, by bridging the gap between trust, inclusion and technological performance; to be a support or pillar to local communities and businesses, to provide them with frictionless, secure and instant transactions, with a simple, cost-effective and convenient payment solution.
+
+And our vision is to create economic opportunities and spark economic growth in local communities and to see an increase in the financial inclusion of local communities with digital payments.
