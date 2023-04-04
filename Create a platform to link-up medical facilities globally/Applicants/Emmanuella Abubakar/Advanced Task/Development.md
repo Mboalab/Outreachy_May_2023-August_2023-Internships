@@ -18,7 +18,7 @@ The process I followed to carry out this task is as follows:
 - When all the screens have been developed, I pushed the code to github and made the repository public. 
 
 ## Result
-- The code base of the healthcare app can be accessed via this **[LINK](https://github.com/emmanuellabubakar/Crosslink-Mobile-App)**
+- The code base of the healthcare app can be accessed via this **[LINK](https://github.com/emmanuellabubakar/Crosslink)**
 - The video of the app can be accessed via this **[LINK](https://drive.google.com/file/d/1DQu4rlgzbb6_JFm923vA-1NB-B-01--S/view?usp=sharing)** and viewed below:
 
   https://user-images.githubusercontent.com/58639293/229627631-48ce5681-5959-4cd2-b60a-c2893cc9c310.mp4
