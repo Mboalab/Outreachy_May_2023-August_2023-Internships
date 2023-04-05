@@ -44,7 +44,7 @@ Furthermore, one major gap many of these payment solutions fail to cover is the 
 
 I would have also suggested the incorporation of a Near-Field Communication (NFC) Technology feature as described in [Contactless Payments](../Task-1/3-various-payment-solutions.md#4-contactless-payments), but adding this technology might increase the cost of production of the hardware device; so I thought to leave this out, but I still wanted to talk about it, just in case.
 
-Details on more limitations, weaknesses; market gaps that can be filled, will be found in a previous [article](../Task-1/2-limitations-in-adoption-of-payment-solutions.md) I wrote.
+Details on more limitations, weaknesses; market gaps that can be filled, will be found in a previous [article](../Task-1/2-limitations-in-adoption-of-payment-solutions.md) I wrote, and some suggestions on how to close those gaps and leverage on the market gaps to increase our proposition.
 
 
 ## Proposed Brand Name

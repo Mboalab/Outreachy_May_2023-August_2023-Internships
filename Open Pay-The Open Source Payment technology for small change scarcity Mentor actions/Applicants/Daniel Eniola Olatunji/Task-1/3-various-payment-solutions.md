@@ -35,7 +35,7 @@ These have been around for quite some time. POS machines enable a user to pay vi
 
 This is a device where customers will swipe, insert or tap their card (or smartphone) when making a purchase. Your merchant service provider may sell or rent you a POS Machine. Some are small handheld devices, others are built into larger cash registers. There are also options that plug into mobile devices or let you enter the card information into an online form. If you have a POS software system, you’ll want a POS Machine that can connect to the system, which will then record your sales.
 
-A POS machine is one of the most advanced payments accepting devices. The biggest advantage of a POS machine is its ability to offer digital payment avenues to the last mile and the option to go cashless. It accepts all kinds of credit and debit card payments and issues receipts along with maintaining transactions.
+A POS machine is one of the most advanced payments accepting devices. The biggest advantage of a POS machine is its ability to offer digital payment avenues to the last mile and the option to go cashless. It accepts credit and debit card payments and issues receipts along with maintaining transactions.
 
 Since the complete process is digital, it eliminates human errors and helps manage and track inventory in real-time.
 
@@ -85,7 +85,7 @@ Any business selling online, promoting goods through social media should be awar
 
 It’s very common these days for brands to build entirely on social media. Some may even start as influencers, gaining a great following and venturing into their own product lines, all within the social media ecosystem.
 
-As anyone with a website knows, building web traffic requires a lot of work. If you have a social media platform that’s already thriving, why take them away from that platform when you could instead engage with and accept online shopping payments directly through the social media platform or via a direct link from your business social account?
+As anyone with a website knows, building web traffic requires a lot of work. If you have a social media platform that is already thriving, why take them away from that platform when you could instead engage with and accept online shopping payments directly through the social media platform or via a direct link from your business social account?
 
 The best way to accept social media payments depends on the platform. Platforms like Facebook, Instagram, and Pinterest all have unique social selling features, so look into your account settings to learn how to start accepting payments.
 
