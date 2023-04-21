@@ -6,6 +6,13 @@
 
 [Figma Design File](https://www.figma.com/file/2XpR22cOaDDZGy8At1Q5xd/Mboa-Lab-Data-Collection--Tool?node-id=87%3A2&t=7k8SY8rpnJzCoowq-1)
 
-Here is a proposed design for thr application to Link up medical fecilities, which were calling Medlink
+[Medlink Github Repository](https://github.com/nlewin20/medlink_mboalab)
+
+[Medlink intial build APK](https://drive.google.com/file/d/11LVuUzBwz4y45AgG41zLgcaNoFd7GYw0/view?usp=sharing)
+
+
+
+
+Here is a proposed design, and repository for thr application to Link up medical fecilities, which were calling Medlink
 
 This application features an intuitive searching functionality, where you can filter searches by hospital facilites or services, as well as location and distance from you.
