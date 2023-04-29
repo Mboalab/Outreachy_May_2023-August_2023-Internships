@@ -55,6 +55,7 @@ From the testing conducted I discovered that the users,
 - Gave feedback about the colors; some of the users like the colors whilst one user did not. 
 
 More comments from users can be seen below:
+
 <img width="400" height="300" alt="image" src="https://user-images.githubusercontent.com/58639293/235307555-a59629b7-696c-4a5a-b931-8032b99517c0.png">
 
 ## Conclusion
