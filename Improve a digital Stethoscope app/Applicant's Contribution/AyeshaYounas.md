@@ -13,6 +13,6 @@ Thanks, and I feel I will learn so much from each and everyone of you.
 
 ##You can connect with me via :
 
-[Github] (https://github.com/ayesha-119)
-[Mail] (aisha.younas19@gmail.com)
-[Linkedin] (https://www.linkedin.com/in/ayesha-younas-256646200/)
+[Github] (https://github.com/ayesha-119) <br>
+[Mail] (aisha.younas19@gmail.com) <br>
+[Linkedin] (https://www.linkedin.com/in/ayesha-younas-256646200/) <br>
